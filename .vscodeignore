@@ -1,0 +1,13 @@
+# Source (compiled to out/)
+src/
+
+# Dev & config files
+.vscode-test/
+.eslintrc.json
+tsconfig.json
+.gitignore
+
+# Build artefacts
+*.vsix
+**/*.js.map
+

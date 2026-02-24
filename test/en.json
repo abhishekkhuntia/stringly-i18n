@@ -1,0 +1,3029 @@
+{
+  "dashboard": "Dashboard",
+  "contracts": "Contracts",
+  "compare": "Compare",
+  "hubs": "Hubs",
+  "network": "Network",
+  "status": "Status",
+  "important": "Important!",
+  "warning": "Warning!",
+  "error": "Error!",
+  "andSeparator": " and ",
+  "configurations": {
+    "breadcrumb": "Configurations",
+    "costCentersByBusinessUnit": {
+      "routeName": "Business Unit",
+      "allBusinessUnitsTab": {
+        "title": "All Business Units",
+        "groups": "Business Unit Group",
+        "groups_fashionStore": "Fashion Store",
+        "groups_offPrice": "Offprice",
+        "groups_zalon": "Zalon",
+        "groups_connectedNetwork": "Connected Network",
+        "businessUnitName": {
+          "type": "{{context}}",
+          "type_Wholesale": "Wholesale",
+          "type_ZPL": "Zalando Premium Logistics (ZPL)",
+          "type_Lounge": "Lounge",
+          "type_Outlet": "Outlet",
+          "type_Preowned": "Preowned",
+          "type_Zalon": "Zalon",
+          "type_ZFS": "Zalando Fulfillment Solutions (ZFS)",
+          "type_ZSS": "Zalando Shipping Solutions (ZSS)",
+          "type_ZRS": "Zalando Returns Solutions (ZRS)",
+          "type_MCF": "Multichannel Fulfillment (MCF)",
+          "type_Partner Program": "Partner Program"
+        }
+      },
+      "table": {
+        "deliveryCountry": "Delivery Country",
+        "deliveryCountryAbbr": "Delivery Country Abbreviation",
+        "segmentNumber": "Segment Number",
+        "businessUnit": "Business Unit (Profit Center)",
+        "costCenterNumber": "Cost Center Number",
+        "eyeFreightBranchCode": "Eyefreight Branchcode"
+      },
+      "infoBar": {
+        "businessUnitLabel": "Business Unit",
+        "businessUnitCostCenterLabel": "Business Unit Cost Center",
+        "eyeFreightCode": "Eyefreight Branchcode"
+      }
+    },
+    "ledgerAccounts": {
+      "table": {
+        "orderType": "Order Type",
+        "subOrderType": "Sub-Order Type",
+        "ledgerAccountNumber": "Ledger Account Number",
+        "branchCode": "Branch Code",
+        "lastMileProduct": "Last Mile Product",
+        "lastMileService": "Last Mile Service"
+      },
+      "orderTypeGroup": {
+        "LAST_MILE_SHIPMENT": "Last Mile Shipments",
+        "LAST_MILE_TRANSPORT": "Last Mile Transports",
+        "MIDDLE_MILE_TRANSPORT": "Middle Mile Transports",
+        "FIRST_MILE_TRANSPORT": "First Mile Transports",
+        "MATERIAL_HANDLING": "Material Handling Type Transports"
+      },
+      "lastMileService": {
+        "type": "Last Mile Service",
+        "type_DELIVERY": "Delivery",
+        "type_RETURN": "Returns"
+      },
+      "productName": {
+        "LAST_MILE_SERVICE": "Last Mile {{service}}",
+        "LAST_MILE_ADDITIONAL_SERVICE": "Last Mile Additional Service {{service}}"
+      },
+      "orderType": {
+        "CUSTOMER_ORDERS": "Customer Orders",
+        "CUSTOMER_ORDERS_TO_OSC": "Customer Orders to OSC",
+        "CUSTOMER_ORDERS_FROM_OSC": "Customer Orders from OSC",
+        "CUSTOMER_ORDERS_LAST_MILE_SHUTTLE": "Customer Orders Last Mile Shuttle",
+        "WAREHOUSE_MOVEMENT_ORDERS": "Warehouse Movement Orders",
+        "REPLENISHMENTS": "Replenishments",
+        "RELOCATIONS": "Relocations",
+        "REPLENISHMENTS_TO_IDC": "Replenishments to IDC",
+        "REPLENISHMENTS_FROM_IDC": "Replenishments from IDC",
+        "UNPROCESSED_RETURNS": "Unprocessed Returns",
+        "RETURNS_TO_FULFILLMENT_CENTER": "Returns to Fulfillment Center",
+        "RETURNS_REFURBISHMENT": "Returns Refurbishments",
+        "RETURNS_DEFECT": "Returns Defect",
+        "NEW_GOODS": "New Goods",
+        "MATERIAL_HANDLING_PACKAGING": "Packaging",
+        "MATERIAL_HANDLING_PALLETS": "Pallets",
+        "MATERIAL_HANDLING_LABELING": "Labeling",
+        "MATERIAL_HANDLING_CONTENT_CREATION": "Content Creation",
+        "MATERIAL_HANDLING_MAIL": "Mail"
+      }
+    },
+    "costCentersByOrderType": {
+      "routeName": "Order Type"
+    }
+  },
+  "statuses": {
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "DRAFT": "Draft",
+    "CANCELED": "Canceled",
+    "UNKNOWN": "Unknown"
+  },
+  "homePage": {
+    "breadcrumb": "Last Mile"
+  },
+  "carriers": "Carriers",
+  "carrierType": "Carrier Type",
+  "carrierTypes": {
+    "zpl": "Zalando Premium Logistics",
+    "conventional": "Conventional"
+  },
+  "carrierTypeFilterLabel": "Carrier Type",
+  "addCarrier": "Add Carrier",
+  "createCarrier": {
+    "breadcrumb": "Create New Carrier",
+    "created": {
+      "message": "Carrier Created",
+      "description": "Carrier <strong>{{name}}</strong> has been created"
+    }
+  },
+  "createCarrierForm": {
+    "title": "Create New Carrier",
+    "controls": {
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "name": "Carrier Registered Name",
+    "nameDescription": "Provide registered name for the carrier",
+    "nameLabel": "Carrier Registered Name",
+    "type": "Carrier Type",
+    "typeDescription": "Provide type for the carrier",
+    "typeLabel": "Carrier Type",
+    "sapVendorId": "SAP Vendor ID",
+    "sapVendorIdDescription": "Provide SAP Vendor ID for the carrier",
+    "sapVendorIdLabel": "SAP Vendor ID",
+    "vatNumber": "VAT Number",
+    "vatNumberDescription": "Provide VAT number for the carrier",
+    "vatNumberLabel": "VAT Number",
+    "address": "Carrier Address",
+    "addressDescription": "Provide the address for the carrier",
+    "addressLabel": "Address",
+    "postalCodeLabel": "Postal Code",
+    "cityLabel": "City",
+    "countryLabel": "Country",
+    "validation": {
+      "required": "${label} is required",
+      "sapVendorIdInvalid": "SAP Vendor ID should be numeric and have 8 digits"
+    }
+  },
+  "companyDetail": "Company Details",
+  "companyDetailCarrierNameText": "Registered Name",
+  "companyDetailCarrierSapIdText": "SAP Vendor ID",
+  "companyDetailCarrierAddressCityText": "City",
+  "companyDetailCarrierAddressStreetText": "Street",
+  "companyDetailCarrierAddressCountryText": "Country",
+  "companyDetailCarrierAddressPostalCodeText": "Postal Code",
+  "companyDetailCarrierVatIdText": "VAT Registration",
+  "lastMileServices": "Last Mile Product",
+  "lastMileServicesError": "At least one last mile service needs to be chosen",
+  "lastMileServicesDestinationError": "Last Mile Destination should be selected for the service",
+  "additionalServices": "Additional Services",
+  "dimensions": "Dimensions",
+  "carrierId": "Carrier ID",
+  "back": "Back",
+  "xStandard": "{{name}} Standard",
+  "action": "Action",
+  "update": "Update",
+  "updateDetails": "Update Details",
+  "deactivate": "Deactivate",
+  "dimensionsModal": {
+    "title": "Add New {{type}}",
+    "cancelBtn": "Cancel",
+    "confirmBtn": "Confirm",
+    "from": "From",
+    "to": "To",
+    "description": "Once a range is created it can not be removed.",
+    "alreadyExistingDimension": "Dimension is already exists",
+    "okText": "Confirm",
+    "cancelText": "Cancel",
+    "titleMap": {
+      "type": "Dimension Type",
+      "type_CAPACITY": "Add New Band Range (Shipment Band/Parcels)",
+      "type_WEIGHT": "Add New Weight Range",
+      "type_VOLUME": "Add New Volume Range"
+    }
+  },
+  "dimensionsPage": {
+    "rangeOverlapMessage": "Range from: {{from}} to {{to}} is overlapping with existing ranges",
+    "weightRangeTitle": "Weight Range ({{metric}})",
+    "weightRangeMessage": "Once a range is created it can not be removed. Double check before adding ranges",
+    "bandRange": "Band Range (Shipment Band) ({{metric}})",
+    "bandRangeMessage": "Once a range is created it can not be removed. Double check before adding ranges",
+    "volumeTitle": "Volume Range ({{metric}})",
+    "volumeMessage": "Once a range is created it can not be removed. Double check before adding ranges",
+    "createSuccessMessage": "The range has been added"
+  },
+  "rateCardList": {
+    "optionAnyText": "Any",
+    "rateCardColumnTitle": "Rate Card",
+    "newRateCardDuplicateErrorMessage": "The Rate Card cannot be saved as such configuration already exists in the database.",
+    "serviceType": "Service Type",
+    "serviceColumnTitle": "Service",
+    "destinationColumnTitle": "Destination",
+    "rateCardInvalid": "Rate card is invalid",
+    "leftPanel": {
+      "source": "Source",
+      "destination": "Destination",
+      "weightRange": "Weight Range (Kg)",
+      "volumeRange": "Volume Range (m3)",
+      "capacity": "Capacity (Parcels)",
+      "anyFacility": "Any",
+      "addButton": "Add New"
+    },
+    "updateConfirmationDialog": {
+      "confirmChangesTitle": "Confirm Changes",
+      "confirmChangesMessage": "Are you sure you want to save changes?",
+      "confirmChangesOk": "Confirm",
+      "confirmChangesCancel": "Cancel"
+    },
+    "deleteConfirmationDialog": {
+      "confirmChangesTitle": "Delete Rate Card",
+      "confirmChangesMessage": "Are you sure you want to delete the rate card?",
+      "confirmChangesOk": "Delete",
+      "confirmChangesCancel": "Cancel"
+    },
+    "drawer": {
+      "subTitle": "Rate Card",
+      "description": "In order to add a new rate card select the last mile product",
+      "selectLabel": "Shipment Rate Month"
+    },
+    "noFacilityWarning": {
+      "description": "New rate cards cannot be created, select at least one facility in the contract to proceed.",
+      "title": "Warning! Unable to create new rate cards"
+    }
+  },
+  "emptyStateDefaultText": "Coming soon",
+  "from": "Min",
+  "to": "Max",
+  "addRange": "Add Range",
+  "xAlreadyExists": "{{what}} already exists",
+  "integerRequired": "\"{{what}}\" must be an integer",
+  "dimension": "Dimension",
+  "upload": "Upload",
+  "name": "Name",
+  "uploaded": "Uploaded",
+  "expiring": "Expiring",
+  "owner": "Business Unit",
+  "person": "Person",
+  "bankDetails": "Bank Details",
+  "documents": "Documents",
+  "id": "ID",
+  "carrier": "Carrier",
+  "deliveryCountry": "Delivery Country",
+  "invoicePaymentTerms": "Invoice Payment Terms",
+  "currency": "Currency",
+  "multiple": "Multiple",
+  "missing": "Missing",
+  "postalCodes": "Postal Codes",
+  "carrierAccountIds": "Account IDs",
+  "search": "Search",
+  "addX": "Add {{what}}",
+  "contract": "Contract",
+  "contractWithId": "Contract with ",
+  "wasSaved": "was saved",
+  "fulfillmentCenter": "Fulfillment Center",
+  "returnCenter": "Return Center",
+  "fulfillmentCentersError": "Select at least one service per selected fulfillment center",
+  "facilityServicesError_one": "A configured last mile product {{services}} needs to be applied to at least one selected fulfillment center.",
+  "facilityServicesError_other": "Configured last mile products {{services}} need to be applied to at least one selected fulfillment center.",
+  "facilityServicesError_return_one": "A configured last mile product {{services}} needs to be applied to at least one selected fulfillment center or return center.",
+  "facilityServicesError_return_other": "Configured last mile products {{services}} need to be applied to at least one selected fulfillment center or return center.",
+  "returnCentersError": "At least one return center should be chosen",
+  "carrierDetail": "Carrier Detail",
+  "namingNormilisationForm": {
+    "label": "Carrier Naming Normalisation",
+    "placeholder": "Carrier Naming Normalisation",
+    "inherited": "Naming Normalisation is inherited from the source contract"
+  },
+  "timelineFormItem": {
+    "testingDate": "Testing Date/Range",
+    "goLiveDate": "Go Live Date",
+    "closingDate": "Closing Date",
+    "emptyState": {
+      "description": "There are no timeline ranges provided",
+      "button": "Add Timeline Implementation Range"
+    },
+    "timelineInherited": "Timeline is inherited from the source contract and cannot be edited / added",
+    "addButton": "Add Another Timeline Implementation Range",
+    "goLiveDateInfo": "This date is based on the absence of a timeline in the system, so the exact times are unknown",
+    "deleteTimelineButtonDisabledTooltip": "Timeline in the past cannot be deleted",
+    "editTimelineButtonDisabledTooltip": "Only one timeline can be edited at a time",
+    "addNewTimelineButtonDisabledTooltip": "Please update the last timeline before adding a new one. Also make sure to click 'Save' button to apply the changes and activate this button",
+    "deleteConfirmationModal": {
+      "title": "Are you sure you want to delete timeline implementation ranges?",
+      "description": "Are you sure you want to delete the set of dates for timeline implementation for <strong>{{destination}} - {{direction}}</strong> ? Once deleted, the dates cannot be recovered.",
+      "descriptionWithoutDestination": "Are you sure you want to delete the set of dates for timeline implementation? Once deleted, the dates cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "editControls": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDialog": {
+        "description": "Sure to cancel?",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    },
+    "validations": {
+      "testingDate": {
+        "type": "{{context}}",
+        "type_TESTING_START_DATE_REQUIRED": "Testing Start Date is required"
+      },
+      "goLiveDate": {
+        "type": "{{context}}",
+        "type_BEFORE_TESTING_DATE": "Go Live Date should be after Testing Date",
+        "type_BEFORE_PREVIOUS_CLOSING_DATE": "Go Live Date should be after Closing Date of the previous timeline",
+        "type_NO_PREVIOUS_CLOSING_DATE": "Closing Date for the previous timeline is missing",
+        "type_AT_LEAST_ONE_DATE_IS_REQUIRED": "At least one timeline date is required",
+        "type_NO_GO_LIVE_DATE_WITH_CLOSING_DATE": "Go Live Date is required"
+      },
+      "closingDate": {
+        "type": "{{context}}",
+        "type_BEFORE_TESTING_DATE": "Closing Date should be after Testing Date",
+        "type_BEFORE_GO_LIVE_DATE": "Closing Date should be after Go Live Date",
+        "type_BEFORE_PREVIOUS_CLOSING_DATE": "Closing Date should be after previous Closing Date",
+        "type_NO_PREVIOUS_CLOSING_DATE": "Closing Date for the previous timeline is missing",
+        "type_AT_LEAST_ONE_DATE_IS_REQUIRED": "At least one timeline date is required"
+      }
+    },
+    "notifications": {
+      "createSuccess": "<strong>Created</strong> Testing Date Range: <strong>{{testingDate}}</strong>, Go Live Date: <strong>{{goLiveDate}}</strong>, Closing Date: <strong>{{closingDate}}</strong>",
+      "updateSuccess": "<strong>Updated</strong> Testing Date Range: <strong>{{testingDate}}</strong>, Go Live Date: <strong>{{goLiveDate}}</strong>, Closing Date: <strong>{{closingDate}}</strong>",
+      "deleteSuccess": "<strong>Deleted</strong> Testing Date Range: <strong> <strike>{{testingDate}} </strike> </strong> , Go Live Date: <strong> <strike> {{goLiveDate}} </strike> </strong>, Closing Date: <strong> <strike> {{closingDate}} </strike> </strong>",
+      "timelineListHeader": "The following timeline(s) has been established for its implementation:"
+    }
+  },
+  "timelineContractDetail": {
+    "range": "Range",
+    "testingDateRanges": "Testing Date Range",
+    "goLiveDate": "Go Live Date",
+    "closingDate": "Closing Date"
+  },
+  "carrierDetails": {
+    "deliveryCountry": {
+      "list": {
+        "header": {
+          "country": "Delivery Country",
+          "currency": "Invoice Currency",
+          "invoiceTermDays": "Invoice Payment Terms",
+          "action": "Action"
+        }
+      },
+      "create": {
+        "breadcrumb": "Create delivery country",
+        "successMessage": "The configuration has been saved"
+      },
+      "update": {
+        "breadcrumb": "Update Delivery Country",
+        "emptyState": "No data available",
+        "successMessage": "The changes have been saved"
+      },
+      "currency": {
+        "display": "{{name}} ({{sign}})"
+      },
+      "form": {
+        "header": "Delivery Country, Currency & Invoice Payment Terms",
+        "deliveryCountry": {
+          "label": "Delivery Country",
+          "title": "Delivery Country",
+          "description": "Select a delivery country",
+          "error": "Provide delivery country"
+        },
+        "invoiceCurrency": {
+          "label": "Currency",
+          "title": "Invoice Currency",
+          "description": "Select invoice currency for the delivery country",
+          "error": "Provide invoice currency"
+        },
+        "invoiceTermDays": {
+          "label": "Days",
+          "title": "Invoice Payment Terms",
+          "description": "Select invoice payment terms for the delivery country",
+          "error": "Provide invoice payment terms"
+        },
+        "controls": {
+          "save": "Save",
+          "cancel": "Cancel"
+        }
+      }
+    },
+    "namingNormalisation": {
+      "update": {
+        "controls": {
+          "cancel": "Cancel",
+          "confirm": "Confirm"
+        }
+      }
+    }
+  },
+  "additionalServiceRates": {
+    "breadcrumb": "Additional Service Rates",
+    "tableHeaders": {
+      "validity": "Validity",
+      "serviceName": "Additional Service Name",
+      "price": "Price"
+    },
+    "collapse": {
+      "title": "Expired Additional Service Rate Cards"
+    },
+    "actionButtons": {
+      "openDrawer": "Add Additional Service Rate"
+    },
+    "filter": {
+      "year": "Year",
+      "month": "Month",
+      "placeholder": "All"
+    },
+    "drawer": {
+      "subTitle": "Create Additional Service Rate",
+      "description": "Create new additional service rate or duplicate and existing one",
+      "title": "Create Additional Service Rate",
+      "radioLabels": {
+        "create": "Create New Additional Service Rate",
+        "duplicate": "Copy Existing Additional Service Rate"
+      }
+    },
+    "deleteConfirmationDialog": {
+      "title": "Delete additional service rate {{month}}?",
+      "description": "You will not be able to recover this additional service rate.",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "createSuccessMessage": "{{type}} for <strong>{{name}}</strong> was created",
+    "updateSuccessMessage": "The changes have been saved",
+    "deleteSuccessMessage": "Additional Service Rate <strong>{{name}}</strong> has been deleted",
+    "form": {
+      "facilitySelect": "Select facility",
+      "disabledContractConfigurationServiceMsg": "The additional service cannot be selected, because it is not configured in the contract."
+    },
+    "facilityOptions": {
+      "fulfillmentCenter": "Fulfillment Center",
+      "returnCenter": "Return Center"
+    },
+    "emptyRateList": "No additional service rates to display"
+  },
+  "mapServiceName": "Map Service Name",
+  "mapServiceNameInstruction": "Instructions for the user goes here.",
+  "company": "Company",
+  "lastMileServiceAgreementText": "I understand the consequences message here.",
+  "save": "Save",
+  "keep": "Keep",
+  "newCarrierStandard": "New Carrier Standard",
+  "carrierStandard": "Carrier Standard",
+  "zalandoStandard": "Zalando Standard",
+  "youMustAgree": "You must accept the conditions",
+  "mapAdditionalServiceName": "Map Additional Service Name",
+  "mapAdditionalServiceNameInstruction": "Match carrier product and service naming to Zalando standard",
+  "additionalServiceAgreementText": "I understand the consequences message here.",
+  "xMustBeANumber": "{{what}} must be a number",
+  "lastMileProduct": "Last Mile Product",
+  "delivery": "Delivery",
+  "conditionId": "Condition ID",
+  "createContract": "Create New Contract",
+  "continue": "Continue",
+  "cancel": "Cancel",
+  "fulfillmentCenters": "Fulfillment Centers",
+  "returnCenters": "Return Centers",
+  "zalandoEntity": "Business Unit",
+  "createContractStep1Title": "Basic Parameters & Last Mile product",
+  "createContractStep2Title": "Services and Carrier Account IDs",
+  "createContractStep3Title": "Coverage",
+  "updateContractStep1Title": "Basic Parameters & Last Mile product",
+  "updateContractStep2Title": "Services and Carrier Account IDs",
+  "updateContractStep3Title": "Coverage",
+  "accountId": "Account ID",
+  "postCodes": "Postal Codes",
+  "postCode": "Postal Code",
+  "ranges": "Ranges",
+  "xAvailableCodes": "Total {{count}} post codes set",
+  "yes": "Yes",
+  "no": "No",
+  "xOfXSelected": "{{selected}} of {{total}} selected",
+  "returns": "Returns",
+  "rangeX": "Range {{index}}",
+  "rangeOverlapDetected": "Overlapping ranges",
+  "mergeOverlappingRanges": "Merge",
+  "confirmMergeRanges": "Confirm Merge Ranges",
+  "mergeRangesConfirmMessage": "This will merge all overlapping ranges. Do you want to proceed?",
+  "mergePreview": "Merge preview:",
+  "merge": "Merge",
+  "contractStep2Header": "Carrier Account IDs",
+  "contactsStep2Description": "Fill in the account IDs for the Last Mile Product either for all facilities(Fulfillment Centers and Return Centers) or by fulfillment center",
+  "availablePostCodes": "Available Postal Codes",
+  "availablePostCodesDescription": "Fill in postal codes by manual entry or ranges (alphanumeric ranges are not supported)",
+  "allowedPostCodesError": "Allowed post codes must have at least one post code or one post code range",
+  "sectionTitle": "Section Title",
+  "injectionDayTitle": "Injection Day",
+  "nDayOfInjection": "Day of Injection +{{day}}",
+  "nDayOfInjectionError": "Day of Injection has either duplicates in another day of injection or undefined codes",
+  "restrictedPostCodes": "Excluded Postal Codes",
+  "restrictedPostCodesError": "Excluded postal codes contain undefined postal codes",
+  "restrictedPostCodesDescription": "Add excluded postal codes. Below postal codes do not provide Last Mile Product Services.",
+  "select": "Select",
+  "lastMileProductAgreementText": "I understand the consequences message here.",
+  "allFacilities": "Apply to All Facilities",
+  "byFacility": "Apply by Fulfillment Center",
+  "cancelProcessTitle": "Cancel Process?",
+  "cancelProcessMessage": "Are you sure you want to cancel?",
+  "cancelProcessOk": "Yes, Cancel the process",
+  "cancelProcessCancel": "No, Continue",
+  "saveAndExitMessage": "You can stop this process and continue later",
+  "saveAndExitOk": "Confirm",
+  "saveAndExitCancel": "Cancel",
+  "deliveryCountryListPage": {
+    "breadcrumb": "Delivery Countries",
+    "invoicePaymentTermsLabelSuffix": "{{value}} days"
+  },
+  "contractsTable": {
+    "updateInheritanceConfiguration": "Update Inheritance Configuration",
+    "addInheritanceConfiguration": "Inherit Configuration"
+  },
+  "contractDetailsPage": {
+    "breadcrumb": "Contract Details",
+    "controls": {
+      "publish": "Publish",
+      "activate": "Activate"
+    },
+    "publishSuccessMessage": "The contract has been successfully published and is in an active state",
+    "deactivateSuccessMessage": "The contract has been deactivated",
+    "activateSuccessMessage": "The contract has been activated",
+    "tabs": {
+      "contractDetails": "Contract Details",
+      "additionalServiceRates": "Additional Service Rates",
+      "shipmentRates": "Shipment Rates",
+      "sla": "SLA"
+    },
+    "accountIds": {
+      "title": "Account IDs",
+      "accountIdsNotSet": "No account IDs set",
+      "services": {
+        "DELIVERY": "Delivery",
+        "RETURN": "Return"
+      }
+    },
+    "lastMileProduct": {
+      "title": "Last Mile Product",
+      "lastMileIdsNotSet": "No last mile products set",
+      "services": {
+        "DELIVERY": "Delivery",
+        "RETURN": "Returns"
+      }
+    },
+    "postCodeCoverage": {
+      "coverageNotSet": "No coverage set",
+      "deliveryDayTitle": "Delivery Day - {{type}}"
+    },
+    "fulfillmentCenters": {
+      "title": "Fulfilment Centers with Last Mile Services",
+      "emptyState": "No fulfillment centers set"
+    },
+    "returnCenters": {
+      "title": "Return Centers",
+      "emptyState": "No return centers set"
+    },
+    "deactivateConfirmation": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "title": "Deactivate Contract",
+      "content": "Are you sure you want to deactivate the contract? By deactivating the contract you also deactivate the shipment rates"
+    }
+  },
+  "createCopyDrawer": {
+    "validityMonth": "{{type}} Month",
+    "copyForm": {
+      "checkboxLabel": "Apply to a range timeline",
+      "copyMonthSelection": "Copy from",
+      "applyMonthSelection": "Apply to",
+      "rangeStartMonth": "Starting Month",
+      "rangeEndMonth": "Ending Month",
+      "errors": {
+        "invalidDate": "Invalid Date",
+        "startDateRangeOutOfBound": "Start month must be before the end month",
+        "overlappingRange_one": "Selected range is invalid. {{type}} for {{months}} already exists.",
+        "overlappingRange_other": "Selected range is invalid. {{type}} for {{months}} already exist."
+      }
+    }
+  },
+  "shipmentRatesPage": {
+    "breadcrumb": "Shipment Rates",
+    "filter": {
+      "year": "Year",
+      "month": "Month",
+      "placeholder": "All"
+    },
+    "table": {
+      "validityMonth": "Shipment Rate Month"
+    },
+    "collapse": {
+      "title": "Expired Shipment Rates"
+    },
+    "drawer": {
+      "validityMonth": "Shipment Rate Month",
+      "subTitle": "Shipment Rate",
+      "description": "Create new shipment rate or duplicate an existing one.",
+      "title": "Create Shipment Rate",
+      "radioLabels": {
+        "create": "Create New Shipment Rate",
+        "duplicate": "Copy Existing Shipment Rate"
+      }
+    },
+    "createSuccessMessage": "Shipment rate <strong>{{name}}</strong> was created",
+    "copyRangeSuccessMessage": "Shipment rate range from <strong>{{start}}</strong> to <strong>{{end}}</strong> has been created",
+    "addButton": "Add Shipment Rate",
+    "noFacilityWarning": {
+      "description": "New shipment rate cannot be created, select at least one facility in the contract to proceed.",
+      "title": "Warning! Unable to create new shipment rates"
+    }
+  },
+  "shipmentRateDetailsPage": {
+    "validity": "Validity",
+    "created": "Created",
+    "lastUpdated": "Last Updated",
+    "status": "Status",
+    "emptyStateText": "No rate cards to display"
+  },
+  "rateCard": {
+    "title": "Rate Card",
+    "createSuccessMessage": "A <strong>{{serviceType}}</strong> rate card has been created for the validity of <strong>{{validityMonth}}</strong>",
+    "updateSuccessMessage": "The changes have been saved",
+    "deleteSuccessMessage": "Rate Card <strong>{{name}}</strong> has been deleted",
+    "form": {
+      "invalidFacilityErrorMessage": "Invalid value",
+      "invalidPriceErrorMessage": "Invalid value"
+    },
+    "errors": {
+      "greaterThan": "Amount should be greater than {{min}}"
+    },
+    "actionButton": {
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "update": "Update"
+    }
+  },
+  "pricePlaceholder": "0.00",
+  "contractSLAPage": {
+    "breadcrumb": "SLA"
+  },
+  "contractUpdatePage": {
+    "breadcrumb": "Update Contract",
+    "controls": {
+      "saveAsDraft": "Save as a draft",
+      "save": "Save"
+    }
+  },
+  "contractDetailsPostCodeCardTitle": "Coverage",
+  "missingSectionInformation": "This section needs to be filled in and saved before this contract can go live.",
+  "viewAll": "view all",
+  "createInjectionHubButton": "Add Injection Hub",
+  "hubId": "Hub ID",
+  "hubTitle": "Injection Hub ID: {{id}}",
+  "hubName": "Name",
+  "hubStreet": "Hub Address",
+  "hubCity": "Hub City",
+  "hubCountry": "Hub Country",
+  "hubOwners": "Business Unit",
+  "eyeFreightCode": "Eyefreight Code",
+  "lastMileServiceTypes": "Last Mile Service",
+  "loadingType": "Loading Type",
+  "loadingTypeOptions": {
+    "loose": "Loose",
+    "palletized": "Palletized"
+  },
+  "addUndefinedPostCodes": "Add all undefined postal codes to superset",
+  "deleteUndefinedPostCodes": "Delete all undefined codes within respective DoI",
+  "createInjectionHubPage": {
+    "title": "Carrier Injection Location & Specifications",
+    "location": {
+      "title": "Injection Hub Location",
+      "description": "Add the address details for the injection hub"
+    },
+    "subTitle2": "Injection Hub Operating Days and Operating Time",
+    "subTitle2Description": "Select operating days and time for the injection hub. The operating times must be defined as a local time",
+    "subTitle3": "Injection Hub Specifications - Loading Type",
+    "subTitle3Description": "Select the loading type for the injection hub",
+    "loadingTypeError": "Provide at least one loading type",
+    "embeddedMessageDescription": "Once added to the system, the hubs can’t be removed. To avoid the duplicates in the system, make sure that the hub you want to add does not exist already in the system.",
+    "selectWorkingDaysLabel": "Select working days",
+    "selectWorkingDaysError": "Provide at least one working day",
+    "operatingHoursSelectionError": "Select the operating hours",
+    "operatingHoursSelectionError_required": "Select the operating hours",
+    "operatingHoursSelectionError_notOneOf": "Starting time cannot be the same as end time",
+    "breadcrumbCreate": "Create New Injection Hub",
+    "breadcrumbUpdate": "Update {{carrierName}} Injection Hub",
+    "deactivateTitle": "Deactivate Injection Hub",
+    "lastMileService": {
+      "error": "Provide at least one last mile delivery service",
+      "title": "Injection Hub Last Mile Delivery Services",
+      "description": "Select the last mile delivery services for the injection hub"
+    },
+    "operationHours": {
+      "applyToAll": "Apply to all days"
+    },
+    "createSuccessMessage": "Carrier injection hub <strong>{{name}}</strong> has been created",
+    "updateSuccessMessage": "The changes to the injection hub <strong>{{name}}</strong> have been saved."
+  },
+  "injectionHubConfigurationsForm": {
+    "deliveryCountryHelpText": "Select at least one delivery country for the injection hub configuration",
+    "deliveryCountriesError": "Provide at least one delivery country",
+    "sortingCapacityTitle": "Parcel Sorting Capacity",
+    "sortingCapacityTooltip": "Combined sorting capacity is available only with multiple delivery countries",
+    "sortingCapacityHelpText": "Select parcel sorting capacity per day ",
+    "directInjectionHelpText": "Select and configure direct injection",
+    "deliveryCountrySpecifications": "Delivery Country Specifications",
+    "configureEachCountryHelpText": "Configure each delivery country that you have selected",
+    "serviceOrReturnCenterError": "The changes have not been saved. Please select at least one Fulfillment Center and Service or at least one Return center for the following countries: {{countries}}",
+    "sla": {
+      "description": "Fill in {{serviceType}} service level agreement information per selected services"
+    },
+    "latestInjectionTimes": {
+      "applyToAll": "Apply to all days"
+    },
+    "notValidFieldsError": "The changes have not been saved. Some of the fields are not valid.",
+    "deleteConfigurationCountryWarning": {
+      "title": "Delete configuration country?",
+      "content": "This action will the delete the following countries {{countries}} and all associated configurations",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    }
+  },
+  "injectionHubConfigurationsOverview": {
+    "sla": {
+      "emptyState": "No service level agreement set"
+    }
+  },
+  "createInjectionHubConfigurationPage": {
+    "title": "Injection Hub Business Unit & Specifications",
+    "titleWithOwner": "Injection Hub Business Unit & Specifications - {{entity}}",
+    "subTitle1": "Select Business Unit",
+    "subTitle1Description": "Select a business unit and add at least one delivery country to fulfill minimal requirements.",
+    "sortingCapacityIsCombinedError": "Provide the sorting type",
+    "combinedSortingCapacityError": "Provide the sorting capacity of at least 0",
+    "embeddedMessageDescription": "In order to complete the next step, select at least one business unit and add at least one delivery country to the business unit. The configuration can be updated and changed at anytime.",
+    "latestInjectionTimeHelpText": "Select the latest injection times (It must be within the operating hours of the injection hub)",
+    "latestDirectInjectionTimeHelpText": "Select the latest direct injection time. The latest direct injection time must be defined as the local time of the injection hub country",
+    "slaMinMaxError": "Provide a number between 0 and 100",
+    "latestInjectionTimeError": "Injection time must be between operating hours",
+    "fulfillmentCenterTitle": "Fulfillment Centers & Services",
+    "fulfillmentCenterMultiSelectText": "Select the fulfillment centers connected to this carrier injection hub",
+    "returnCenterMultiSelectText": "Select the return centers connected to this carrier injection hub",
+    "postalCodeErrorMessage": "Out of defined contract range",
+    "postalCodesAreEmptyErrorMessage": "Providing postal codes is required",
+    "breadcrumb": "Create New Injection Hub Configuration",
+    "serviceByFacilityError": "Select at least one service per facility",
+    "successMessage": "Carrier injection hub business unit {{owner}} has been created and the injection hub is in an active configuration state"
+  },
+  "updateInjectionHubConfigurationPage": {
+    "breadcrumb": "{{owner}} Injection Hub Configuration",
+    "successMessage": "The changes have been saved"
+  },
+  "injectionHubStatus": {
+    "ACTIVE": "Active Configuration",
+    "INACTIVE": "Inactive",
+    "DRAFT": "No Configuration"
+  },
+  "injectionHubDetailsPage": {
+    "warningMessage": "For this Injection hub to become active you need to select at least one business unit and add delivery country specifications. To do so click update on the business unit and delivery country specifications card.",
+    "noOwnerTitle": "No business unit set",
+    "noOwnerMessage": "Select a business unit and fill in the corresponding information",
+    "deactivateReason": "Select the reason for deactivating Injection Hub with ID: {{id}}",
+    "deactivateReasonError": "Select a deactivation reason",
+    "deactivateSuccessMessage": "Carrier injection hub <strong>{{id}}</strong> has been deactivated. The selected reason: {{reason}}",
+    "activateSuccessMessage": "Carrier injection hub <strong>{{id}}</strong> has been activated",
+    "operatingDays": "Operating Days",
+    "operatingHours": "Operating Hours",
+    "breadcrumb": "{{carrierName}} Injection Hub Overview",
+    "updateInjectionHub": "Update Injection Hub",
+    "updateConfigurations": "Update Business Unit Configurations",
+    "multipleCarriers": "Multiple Carriers",
+    "injectionHubCard": {
+      "carrierTitle": "Carrier {{index}}",
+      "carriers_one": "Carrier",
+      "carriers_other": "Carriers",
+      "hubTypeTitle": "Carrier Injection Hub Type",
+      "hubType": {
+        "zpl": "Zalando Premium Logistics (ZPL)",
+        "nonZpl": "Conventional"
+      },
+      "hubSpecifications": "Hub Specifications & Location",
+      "hubLocation": "Hub Location",
+      "operatingTimes": "Operating Days & Time",
+      "loadingType": "Loading Type",
+      "lastMileService": "Last Mile Delivery Services"
+    },
+    "latestInjectionTimeCard": {
+      "title": "{{ownerName}} - Latest Injection Times",
+      "emptyStateDescription": "No injection times for a last mile service set"
+    },
+    "directInjectionCard": {
+      "directInjection": "{{ownerName}} - Direct Injection",
+      "postCodesCoveredTitle": "Postal Codes Covered"
+    },
+    "slaCard": {
+      "subTitleDelivery": "Delivery Service Level Agreement",
+      "deliveryServiceLevelAgreement": "{{ownerName}} - Delivery Service Level Agreement",
+      "returnsServiceLevelAgreement": "{{ownerName}} - Returns Service Level Agreement"
+    },
+    "facilitiesCards": {
+      "fulfillmentCentersCardTitle": "{{ownerName}} - Fullfilment Centers with Last Mile Services",
+      "fulfillmentCentersCardEmptyState": "No fulfillment center for a last mile service set",
+      "returnCentersCardTitle": "{{ownerName}} - Return Centers",
+      "returnCentersCardEmptyState": "No return center for a last mile service set"
+    },
+    "sortingCapacityCard": {
+      "title": "{{ownerName}} - Sorting Capacity",
+      "subTitle": "Capacity",
+      "type": "Capacity Type",
+      "totalCombinedCapacity": "Total Combined Capacity",
+      "capacityForCountry": "Capacity for {{countryName}}"
+    }
+  },
+  "facilityDeactivationReasons": {
+    "UNDER_MAINTENANCE": "Under Maintenance",
+    "UNDER_CONSTRUCTION": "Under Construction",
+    "CLOSED_FOR_PEAK": "Closed For Peak",
+    "TEMPORARILY_NOT_FUNCTIONAL": "Temporarily Not Functional",
+    "PERMANENTLY_CLOSED": "Permanently Closed",
+    "DISCONTINUED_FOR_COSTS_SAVINGS": "Discontinued for Cost Savings",
+    "DISCONTINUED_FOR_EFFICIENT_UTILIZATION": "Discontinued for Efficient Utilization"
+  },
+  "weekdays": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "mondayShort": "Mon",
+    "tuesdayShort": "Tue",
+    "wednesdayShort": "Wed",
+    "thursdayShort": "Thu",
+    "fridayShort": "Fri",
+    "saturdayShort": "Sat",
+    "sundayShort": "Sun"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "directInjection": "Direct Injection",
+  "latestInjection": "Latest Injection Time",
+  "directInjectionTime": "Direct Injection Time",
+  "serviceLevelAgreement": "{{serviceType}} - Service Level Agreement",
+  "sortingCapacityPerDay": "Sorting Capacity per Day",
+  "parcelsPerDay": "Parcels per Day",
+  "injectionHubs": "Injection Hubs",
+  "injectionHubsPage": {
+    "filters": {
+      "empty": "—"
+    }
+  },
+  "createInjectionHub": "Add Injection hub",
+  "activate": "Activate",
+  "unknown": "Unknown",
+  "confirm": "Confirm",
+  "operatingHours": "Operating hours {{timeSpans}}",
+  "operatingHoursTimeSpan": "{{opensAt}} - {{closesAt}}",
+  "sortingCapacity": {
+    "title": "Sorting Capacity",
+    "combined": "Combined",
+    "split": "Split"
+  },
+  "carrierContractFirstStep": {
+    "firstSectionTitle": "Carrier, Delivery Country & Business Unit",
+    "firstSectionDescription": "Select carrier, delivery country, business unit, fulfillment center and last mile product in order to proceed with the contract creation",
+    "lastMileProductTitle": "Last Mile Product",
+    "lastMileProductDescription": "Select last mile product and services",
+    "fulfillmentCenterTitle": "Fulfillment Centers",
+    "fulfillmentCenterDescription": "Select fulfillment centers and services",
+    "returnCenterTitle": "Return Centers",
+    "returnCenterDescription": "Select return centers"
+  },
+  "carrierContractThirdStep": {
+    "postCodeConfiguration": {
+      "deliveryDayHeader": "Delivery Day - {{type}} {{service}}",
+      "deliveryDayDescription": "Fill in postal codes for the day of injection (E+0, E+1, E+2, E+3, E+Rest)"
+    }
+  },
+  "contractSaveDraftSuccessMessage": "Contract has been saved and is in a draft state",
+  "contractSaveActiveSuccessMessage": "The changes have been saved",
+  "namingNormalisation": "Naming Normalisation",
+  "deliveryCountryList": "Delivery Countries",
+  "integerTypeError": "Must be a number",
+  "floatTypeError": "Must be a number",
+  "noInjectionHubConfiguration": "Missing",
+  "saveOperatingTimesWarningTitle": "Are you sure you want to save?",
+  "saveOperatingTimesWarningText": "The selected operating hours are outside of the configured latest injection time, if you proceed the latest injection times will be affected.",
+  "facilityListView": {
+    "listHeader": "Fulfilment Centers",
+    "editControls": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirmDialog": {
+        "description": "Sure to cancel?",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      }
+    },
+    "updateSuccessMessage": "The changes have been saved",
+    "id": "ID",
+    "name": "Facility Name",
+    "branchCode": "Eyefreight Branchcode",
+    "street": "Street Name",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "goLiveDate": "Facility Go-Live Date",
+    "map": "Map",
+    "state": "Facility Status",
+    "mapUrl": "http://www.openstreetmap.org/?mlat={{latitude}}&mlon={{longitude}}&zoom=14",
+    "note": "Note",
+    "actions": "Actions"
+  },
+  "facilitySelect": {
+    "default": "{{selected}} of {{total}} selected",
+    "fulfillmentCenters": "{{selected}} of {{total}} fulfillment centers selected",
+    "returnCenters": "{{selected}} of {{total}} return centers selected",
+    "serviceName": "{{type}} ({{name}})"
+  },
+  "facilityOverview": {
+    "header": {
+      "state": "Facility Status"
+    },
+    "tabs": {
+      "details": "Facility Details & Routing Context",
+      "otherFacilitiesDetail": "Facility Details",
+      "events": "Schedule & Timelines"
+    },
+    "details": {
+      "title": "Facility Address & Timeline Setup",
+      "name": "Facility Name",
+      "shortName": "Facility Short Name",
+      "branchCode": "Eyefreight Branchcode",
+      "testingDate": "Testing Date",
+      "goLiveDate": "Go-Live Date",
+      "closingDate": "Closing Date",
+      "dateRange": "{{start}} - ",
+      "address": "Facility Address",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "facilityId": "Facility ID",
+      "legacyTourServiceName": "Legacy Tour Service Name",
+      "mercareonCode": "Mercareon Code",
+      "zalos2Name": "Zalos2 Name",
+      "wmsVersion": "WMS Version",
+      "collapseButton": "See Less",
+      "cancel": "Cancel",
+      "confirm": "Save",
+      "dateStartSelectPlaceholder": "Start date",
+      "dateEndSelectPlaceholder": "End date",
+      "map": "Map",
+      "mapLink": "Link",
+      "notifications": {
+        "changesSaved": {
+          "message": "Changes Saved",
+          "description": "Your changes have been saved for the facility <strong>{{name}}</strong>"
+        }
+      },
+      "minSortingCapacity": "Minimum Sorting Capacity",
+      "maxSortingCapacity": "Maximum Sorting Capacity",
+      "validations": {
+        "compareMinMaxCapacity": "Minimum sorting capacity cannot be bigger than maximum sorting capacity",
+        "maxCapacityZero": "Maximum sorting capacity must be bigger than zero",
+        "capacityRequired": "Sorting capacity fields are required",
+        "lessThanZero": "Capacity cannot be less than 0"
+      }
+    },
+    "location": {
+      "title": "Geolocation"
+    },
+    "operatingHours": {
+      "title": "Facility Operating Hours"
+    },
+    "routingContext": {
+      "title": "Routing Context",
+      "fromFacility": "From {{name}}",
+      "toFacility": "To {{name}}",
+      "table": {
+        "columns": {
+          "source": "Origin",
+          "destination": "Destination",
+          "deliveryCountry": "Delivery Country",
+          "carrier": "Carrier",
+          "lastMileService": "Last Mile Service",
+          "businessUnit": "Business Units",
+          "processedReturnsType": "Sub-Order Type",
+          "materialType": "Material Handling Type"
+        },
+        "pagination": {
+          "totalMain": "Total {{total}} items "
+        },
+        "addRoutingContext": "Add New Routing Context",
+        "addBusinessUnit": "Add Business Unit"
+      },
+      "businessUnitModal": {
+        "title": "{{context}}",
+        "title_add": "Add Business Units",
+        "title_update": "Update Business Units",
+        "description": "Select business units to add for a routing context from <strong>{{source}}</strong> to <strong>{{destination}}</strong>",
+        "selectLabel": "Business Units",
+        "selectPlaceholder": "Business Units",
+        "cancel": "Cancel",
+        "confirm": "Save",
+        "businessUnitName": {
+          "type": "{{context}}",
+          "type_Zalando Shipping Solutions": "Zalando Shipping Solutions (ZSS)",
+          "type_Zalando Fulfillment Solutions": "Zalando Fulfillment Solutions (ZFS)"
+        },
+        "validation": {
+          "type": "{{context}}",
+          "type_ADD_IS_NOT_ALLOWED": "Business Units cannot be added",
+          "type_DELETE_IS_NOT_ALLOWED": "Business Units cannot be deleted"
+        }
+      },
+      "groups": {
+        "type": "{{context}}",
+        "type_CUSTOMER_ORDERS": "Customer Orders",
+        "type_OSC_CUSTOMER_ORDERS": "Customer Orders",
+        "type_WAREHOUSE_MOVEMENT_ORDERS": "Warehouse Movement Orders",
+        "type_UNPROCESSED_RETURNS": "Unprocessed Returns",
+        "type_PROCESSED_RETURNS": "Processed Returns",
+        "type_REPLENISHMENTS": "Replenishments",
+        "type_NEW_GOODS": "New Goods",
+        "type_MATERIAL_HANDLING": "Material Handling",
+        "type_RELOCATIONS": "Relocations"
+      },
+      "created": {
+        "message": "Routing Context Created",
+        "description": "Routing Context between <strong>{{source}}</strong> and <strong>{{destination}}</strong> has been created."
+      },
+      "changesSaved": {
+        "message": "Changes Saved",
+        "description": "Changes for Routing Context between <strong>{{source}}</strong> and <strong>{{destination}}</strong> have been saved."
+      }
+    }
+  },
+  "facilityEvents": {
+    "eventName": "Facility"
+  },
+  "facilityRoutingContext": {
+    "breadcrumb": "Routing Context",
+    "title": "Routing Context Log",
+    "source": "Origin",
+    "destination": "Destination",
+    "deliveryCountry": "Delivery Country",
+    "carrier": "Carrier",
+    "lastMileService": "Last Mile Service",
+    "name": "Routing Context"
+  },
+  "facilityRoutingContextForm": {
+    "source": "Origin",
+    "destination": "Destination",
+    "deliveryCountry": "Delivery Country",
+    "carrier": "Carrier",
+    "lastMileService": "Last Mile Service",
+    "validation": {
+      "sourceRequired": "Origin is required",
+      "destinationRequired": "Destination is required",
+      "deliveryCountryRequired": "Delivery Country is required",
+      "carrierRequired": "Carrier is required",
+      "lastMileServiceRequired": "Last Mile Service is required"
+    },
+    "confirm": "Save",
+    "cancel": "Cancel"
+  },
+  "otherFacilities": {
+    "type": "Other Facilities",
+    "type_CUSTOMS_TERMINAL": "Customs Terminal",
+    "type_PRE_OWNED_HUB": "Pre-Owned Hub",
+    "type_OVERSTOCK_MANAGEMENT_HUB": "Overstock Management Hub",
+    "type_OUTLET_HUB": "Outlet Hub",
+    "type_Z_MARKETPLACE_HUB": "Z Marketplace Hub",
+    "type_ZALANDO_SHIPPING_SOLUTIONS_HUB": "Zalando Shipping Solutions Hub"
+  },
+  "eventOverview": {
+    "name": "{{context}}",
+    "name_state": "Status",
+    "name_closingDate": "Closing Date",
+    "name_testingDate": "Testing Date",
+    "name_goLiveDate": "Go-Live Date",
+    "name_businessUnits": "Business Units",
+    "valueLabel": "{{context}}",
+    "valueLabel_state": "Status",
+    "valueLabel_closingDate": "Date",
+    "valueLabel_testingDate": "Date",
+    "valueLabel_goLiveDate": "Date",
+    "valueLabel_businessUnits": "Business Units",
+    "total": "Total {{total}} items",
+    "createdTitle": "{{name}} Creation",
+    "addedTitle": "{{name}} Added",
+    "createdReason": "{{name}} created",
+    "status": {
+      "archived": "Archived"
+    },
+    "history": {
+      "title": "History",
+      "searchPlaceholder": "Search by requester"
+    },
+    "scheduledEvents": {
+      "title": "Scheduled Events",
+      "searchPlaceholder": "Search by requester"
+    }
+  },
+  "eventFilter": {
+    "createdDateLabel": "Created Date",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search by requester",
+    "clearButtonLabel": "Clear All"
+  },
+  "eventCard": {
+    "title": "{{name}} Change",
+    "creator": "Requester",
+    "reason": "Reason",
+    "newValue": "Updated {{name}}",
+    "oldValue": "Initial {{name}}",
+    "scheduledDate": "Scheduled Date"
+  },
+  "contractsOverwiew": {
+    "breadcrumb": "Contracts"
+  },
+  "categoryOverview": {
+    "breadcrumb": "{{categoryName}}",
+    "deliveryCountryList": {
+      "emptyDeliveryCountry": "Empty Delivery Countries",
+      "emptyDeliveryCountryTag": "No Configuration"
+    }
+  },
+  "contractPage": {
+    "breadcrumb": "{{carrier}}",
+    "tabs": {
+      "carrier": "Carrier Details",
+      "injectionHubConfigs": "Carrier Injection Hub Configurations",
+      "postalCodesConfiguration": "Postal Codes Configuration",
+      "invoiceDetails": "Invoicing Details"
+    },
+    "empty": "There are no carriers configured, \n add a carrier for this delivery country",
+    "addCarrier": "Add Carrier",
+    "addContractModal": {
+      "title": "Add Carrier",
+      "titleAddExisting": "Add Existing Carrier",
+      "cancelBtn": "Cancel",
+      "continueBtn": "Continue",
+      "description": "Select the type of carrier to add to delivery country",
+      "formOptions": {
+        "addNewCarrier": "New Carrier",
+        "addExistingCarrier": "Existing Carrier"
+      }
+    },
+    "addExistingCarrierForm": {
+      "cancelBtn": "Cancel",
+      "saveBtn": "Save",
+      "description": "Select a carrier",
+      "carrierSelectLabel": "Carriers",
+      "carrierSelectPlaceholder": "--"
+    },
+    "contractNavigation": {
+      "businessUnit": "Business Unit",
+      "deliveryCountry": "Delivery Country",
+      "contractLastUpdated": "Contract Last Updated",
+      "navLinks": {
+        "carrierDetails": "Carrier Details",
+        "invoiceDetails": "Invoicing Details",
+        "postalCodesConfiguration": "Postal Codes Configuration",
+        "carrierInjectionHubConfguration": "Carrier Injection Hub Configurations"
+      }
+    },
+    "lastMileServiceNamingNormalisation": {
+      "standardLabel": "{{direction}} Zalando Standard",
+      "carrierStandardLabel": "Carrier Standard"
+    },
+    "table": {
+      "inherited": "Inherited",
+      "header": {
+        "carriers": "Carriers",
+        "lastMileDestinations": "Last Mile Destinations",
+        "totalCountryShare": "Total Country Share",
+        "lastMileService": "{{context}}",
+        "lastMileService_DELIVERY": "Delivery",
+        "lastMileService_RETURN": "Returns"
+      },
+      "noShareTooltip": "Delivery country share has not been configured",
+      "shareLimitReachedTooltip": "Delivery country share already adds up to 100%",
+      "notEditableShareTooltip": "Delivery country share cannot be edited",
+      "notEditableShareTooltip_past": "Delivery country share for the past month cannot be edited",
+      "notEditableShareTooltip_current": "Delivery country share for the current month cannot be edited",
+      "countryShares": {
+        "addShares": "Add Share",
+        "addSharesTitle": "Add Carrier Share",
+        "addSharesDescription": "Add carrier share for the selected month",
+        "updateSharesTitle": "Update Carrier Share",
+        "updateSharesDescription": "Update carrier share for the selected month",
+        "deleteSharesTitle": "Delete Carrier Share",
+        "copySharesTitle": "Copy Carrier Share"
+      },
+      "inheritedBusinessUnitAlert": {
+        "message": "This is a target business unit, prices, naming normalization, invoice details are shared with business unit Wholesale, if you want to update it, please update the source business unit"
+      },
+      "editService": "Edit"
+    },
+    "deleteDeliveryCountryShareModal": {
+      "title": "Are you sure you want to delete carrier share?",
+      "description": "Are you sure you want to delete the carrier share  <strong>{{share}}%</strong> for <strong>{{month}}, {{carrierName}}</strong>?  Once deleted, the share cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "copyShareFormInfo": {
+      "label": "Carrier Share",
+      "type": "Share Type"
+    },
+    "notification": {
+      "shareChangesSaved": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{month}}</strong>"
+      },
+      "shareDeleted": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{month}}</strong>"
+      },
+      "destinationCreated": {
+        "message": "Last Mile Destination Created",
+        "description": "Last Mile Destination <strong>{{name}}</strong> has been added to <strong>{{service}}</strong>"
+      },
+      "destinationUpdated": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{name}}</strong>"
+      },
+      "additionalServiceDestinationUpdated": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{name}}</strong>"
+      },
+      "additionalServiceCreated": {
+        "message": "Additional Service Created",
+        "description": "Additional Service <strong>{{name}}</strong> has been added to <strong>{{service}}</strong>"
+      },
+      "additionalServiceUpdated": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{name}}</strong>"
+      },
+      "pricesSaved": {
+        "message": "Last Mile Prices Saved",
+        "description": "Your changes have been saved for <strong>{{direction}}</strong> - <strong>{{service}}</strong> - <strong>{{month}}</strong>"
+      },
+      "pricesSaveError": {
+        "message": "Error",
+        "description": "An error occurred while saving the prices. Please check values below!"
+      },
+      "additionalServiceSharesSaved": {
+        "message": "Additional Service Share Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{month}}</strong>"
+      },
+      "additionalServiceSharesDeleted": {
+        "message": "Additional Service Share Deleted",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{month}}</strong>"
+      },
+      "additionalServicePricesSaved": {
+        "message": "Additional Service Price Saved",
+        "description": "Your changes have been saved for <strong>{{direction}}</strong> - <strong>{{service}}</strong> - <strong>{{month}}</strong>"
+      },
+      "additionalServicePricesSaveError": {
+        "message": "Error",
+        "description": "An error occurred while saving the additional service prices. Please check values below!"
+      },
+      "additionalServicePricesDeleted": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved for <strong>{{service}}</strong> <strong>{{month}}</strong>"
+      },
+      "carrierAdded": {
+        "message": "New Carrier Added",
+        "description": "New carrier <strong>{{carrierName}}</strong> has been added to delivery country <strong>{{country}}</strong>"
+      },
+      "copyShareNotification": {
+        "message": "Copied Share Applied",
+        "description": "<strong>{{carrier}}</strong> carrier share for <strong>{{direction}} {{sourceMonths}}</strong> has been copied to <strong>{{targetMonths}}</strong>"
+      },
+      "lastMileServiceNamingNormalisationAdded": {
+        "message": "Changes Saved",
+        "description": "Your changes have been saved"
+      }
+    }
+  },
+  "deliveryCountryShareForm": {
+    "share": {
+      "label": "{{service}} Share",
+      "percent": "%"
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "validation": {
+      "required": "${label} is required"
+    }
+  },
+  "shareAlert": {
+    "missingError": {
+      "months": " in <strong>{{months}}</strong>",
+      "multipleMonths": "multiple months"
+    },
+    "detail": "Details",
+    "close": "Close",
+    "monthsAffected": "Months affected:"
+  },
+  "lastMileDestinationShareDeleteConfirm": {
+    "title": "Are you sure you want to delete share?",
+    "description": "Are you sure you want to delete the share <strong>{{share}}\u00a0%</strong> for <strong>{{month}}</strong>, <strong>{{service}}</strong>? Once deleted, the share cannot be recovered.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "additionalServicePriceDeleteConfirm": {
+    "title": "Are you sure you want to delete additional service price?",
+    "description": "Are you sure you want to delete the price <strong>{{currency}}\u00a0{{price}}</strong> for <strong>{{month}}</strong>, <strong>{{service}}</strong>? Once deleted, the price cannot be recovered.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "additionalServiceShareDeleteConfirm": {
+    "title": "Are you sure you want to delete additional service share?",
+    "description": "Are you sure you want to delete the share <strong>{{share}}</strong>% for <strong>{{month}}</strong>, <strong>{{service}}</strong>? Once deleted, the share cannot be recovered.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "additionalServicePriceForm": {
+    "title": "Add Price"
+  },
+  "priceForm": {
+    "tabs": {
+      "basePrice": "Base Price",
+      "priceWithDimensions": "Price with Dimensions"
+    },
+    "title": "Add Price",
+    "description": "Add base price for the selected last mile destination",
+    "description_basePrice": "Add base price for the selected last mile destination",
+    "description_priceWithDimensions": "Select dimensions and add price for the selected last mile destination",
+    "description_additionalService_basePrice": "Add base price for the selected additional service",
+    "description_additionalService_priceWithDimensions": "Select dimensions and add price for the selected additional service",
+    "basePrice": {
+      "price": {
+        "label": "Base Price"
+      }
+    },
+    "dimensionPriceForm": {
+      "addNewRange": "Add New Range",
+      "title": "Dimensions",
+      "description": "Choose the dimension type for price configuration",
+      "fromRangeLabel": "From",
+      "toRangeLabel": "To",
+      "price": "Price",
+      "weightRangeLabel": "Weight (Kg)",
+      "capacityRangeLabel": "Capacity (Parcels)",
+      "sizeLabel": "Size (cm)",
+      "priceLabel": "Price",
+      "weightSetLabel": "Weight",
+      "capacitySetLabel": "Capacity",
+      "sizeSetLabel": "Size",
+      "lengthLabel": "Length",
+      "widthLabel": "Width",
+      "heightLabel": "Height",
+      "priceSetHeader": "Price & Dimension Ranges",
+      "priceSetDescription": "Customise dimensions and specify the base price for the configuration",
+      "rangeLabel": "Range {{index}}",
+      "validations": {
+        "minValue": "Invalid Value",
+        "minMaxValue": "Invalid Value",
+        "overlappingRanges": "Ranges overlap",
+        "overlappingSizes": "Sizes overlap",
+        "typeRequired": "Field is required",
+        "minRangeRequired": "At least one range is required"
+      }
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "validation": {
+      "required": "${label} is required",
+      "between0andMaxValue": "Price must be bigger than 0 and smaller than {{maxValue}}"
+    }
+  },
+  "lastMilePrices": {
+    "rangeLabel": "Range {{index}}:",
+    "weightRange": "Weight (Kg)",
+    "capacityRange": "Capacity (Parcel)",
+    "size": "Size (cm)",
+    "rangeIndex": "Range",
+    "price": "Price ({{currency}})",
+    "addPrice": "Add Price",
+    "editPrice": "Edit",
+    "copyPrice": "Copy Price",
+    "deletePrices": {
+      "type": "Delete Price",
+      "type_BASE": "Delete Base Price",
+      "type_ALL": "Delete All Prices"
+    },
+    "deleteBaseLastMilePriceModal": {
+      "title": "Are you sure you want to delete base price?",
+      "description": "Are you sure you want to delete the base price <strong>{{currency}}\u00a0{{price}}</strong> for <strong>{{month}}</strong>, <strong>{{service}}</strong>?  Once deleted, the price cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "deleteAllLastMilePricesModal": {
+      "title": "Are you sure you want to delete all prices?",
+      "description_one": "Are you sure you want to delete all prices for <strong>{{rangeCount}} range</strong> for <strong>{{month}}</strong>, <strong>{{service}}</strong>?  Once deleted, the prices cannot be recovered.",
+      "description_other": "Are you sure you want to delete all prices for <strong>{{rangeCount}} ranges</strong> for <strong>{{month}}</strong>, <strong>{{service}}</strong>?  Once deleted, the prices cannot be recovered.",
+      "subTitle": "Dimension Ranges",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "copyNotification": {
+      "message": "Copied Price Applied",
+      "description_one": "<strong>{{destination}}</strong> price for <strong>{{sourceMonths}}</strong> has been copied to <strong>{{targetMonths}}</strong>",
+      "description_other": "<strong>{{destination}}</strong> prices for <strong>{{sourceMonths}}</strong> have been copied to <strong>{{targetMonths}}</strong>"
+    }
+  },
+  "shareForm": {
+    "validation": {
+      "required": "${label} is required"
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "share": {
+      "label": "{{direction}} Share",
+      "percent": "%"
+    }
+  },
+  "shareDisplayCell": {
+    "addShare": "Add Share",
+    "copyShare": "Copy Share",
+    "editShare": "Edit Share",
+    "deleteShare": "Delete Share",
+    "shares": "{{count}}%"
+  },
+  "lastMileProductShares": {
+    "share": {
+      "label": "Share",
+      "percent": "%"
+    },
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+      "required": "Share is required"
+    },
+    "addShareModal": {
+      "updateSharesTitle": "Update Share",
+      "updateSharesDescription": "Update last mile destination share for the selected month",
+      "addSharesTitle": "Add Share",
+      "addSharesDescription": "Add last mile destination share for the selected month"
+    },
+    "copyNotification": {
+      "message": "Copied Split Share Applied",
+      "description": "<strong>{{destination}}</strong> share for <strong>{{sourceMonths}}</strong> has been copied to <strong>{{targetMonths}}</strong>"
+    },
+    "shareLimitReachedTooltip": "The product share already adds up to a 100%",
+    "noShareTooltip": "Product Share has not been configured",
+    "notEditableShareTooltip": "The product share cannot be edited",
+    "notEditableShareTooltip_past": "The product share for the past month cannot be edited",
+    "notEditableShareTooltip_current": "The product share for the current month cannot be edited"
+  },
+  "lastMileAdditionalServicePrices": {
+    "copyNotification": {
+      "message": "Copied Price Applied",
+      "description": "<strong>{{service}}</strong> price for <strong>{{sourceMonths}}</strong> has been copied to <strong>{{targetMonths}}</strong>"
+    }
+  },
+  "lastMileAdditionalServiceShares": {
+    "addShareModal": {
+      "updateSharesTitle": "Update Share",
+      "updateSharesDescription": "Update last mile additional service share for the selected month",
+      "addSharesTitle": "Add Share",
+      "addSharesDescription": "Add last mile additional service share for the selected month"
+    },
+    "noShareTooltip": "Additional Service Share has not been configured",
+    "notEditableShareTooltip": "The additional service share cannot be edited",
+    "notEditableShareTooltip_past": "The additional service share for the past month cannot be edited",
+    "notEditableShareTooltip_current": "The additional service share for the current month cannot be edited",
+    "notEditablePriceTooltip": "The additional service price cannot be edited",
+    "notEditablePriceTooltip_past": "The additional service price for the past month cannot be edited",
+    "notEditablePriceTooltip_current": "The additional service price for the current month cannot be edited",
+    "notWithinTimelinePriceTooltip": "Price is not valid as it is outside the last mile destination timeline implementation",
+    "notWithinTimelinePriceTooltip_noValue": "Price cannot be added without last mile destination timeline implementation",
+    "notWithinTimelineShareTooltip": "Share is not valid as it is outside the last mile destination timeline implementation",
+    "notWithinTimelineShareTooltip_noValue": "Share cannot be added without last mile destination timeline implementation",
+    "notEditablePriceInheritedTooltip": "The price cannot be edited as it is inherited from the source contract",
+    "notEditableShareInheritedTooltip": "The share cannot be edited as it is inherited from the source contract",
+    "copyNotification": {
+      "message": "Copied Split Share Applied",
+      "description": "<strong>{{service}}</strong> share for <strong>{{sourceMonths}}</strong> has been copied to <strong>{{targetMonths}}</strong>"
+    },
+    "destinationShareLabel": "Destination Shares"
+  },
+  "missingInvoiceAlert": "Prices cannot be added as currency is not configured in the invoicing details. Configure the currency in <transLink>Invoice Details</transLink>",
+  "contractLastMileProduct": {
+    "title": "Last Mile Destinations Shares & Prices",
+    "description": "Add the last mile destinations, their prices and shares.",
+    "destinationHeader": "Last Mile Destination",
+    "addDestination": "Add Last Mile Destination",
+    "editService": "Edit",
+    "inherited": "Inherited",
+    "addDestinationButtonInherited": "This contract last mile service is inherited from the source contract, you cannot add a new last mile destination",
+    "emptyState": {
+      "description": "There are no last mile destinations configured",
+      "addDestination": "Configure Last Mile Destination"
+    },
+    "notEditablePriceTooltip": "The price cannot be edited",
+    "notEditablePriceTooltip_past": "The price for the past month cannot be edited",
+    "notEditablePriceTooltip_current": "The price for the current month cannot be edited",
+    "notWithinTimelinePriceTooltip": "Price is not valid as it is outside the last mile destination timeline implementation",
+    "notWithinTimelinePriceTooltip_noValue": "Price cannot be added without last mile destination timeline implementation",
+    "notWithinTimelineShareTooltip": "Share is not valid as it is outside the last mile destination timeline implementation",
+    "notWithinTimelineShareTooltip_noValue": "Share cannot be added without last mile destination timeline implementation",
+    "notEditablePriceInheritedTooltip": "The price cannot be edited as it is inherited from the source contract",
+    "notEditableShareInheritedTooltip": "The share cannot be edited as it is inherited from the source contract",
+    "warning": "The last mile destination shares must add up to 100% per month between all destination within this carrier",
+    "shareSumError": "Split share does not add up to a 100% between last mile destinations",
+    "namingNormalizationTitle": "Carrier Naming Normalization for Last Mile Destination",
+    "timelinesTitle": "Last Mile Destination Timeline Implementation",
+    "notifications": {
+      "addNewDestination": "A new Last Mile Destination <strong>{{name}}</strong> <strong>{{lastMileService}}</strong>, has been created",
+      "updateDestination": "The timeline for the Last Mile Destination <strong>{{name}}</strong> <strong>{{lastMileService}}</strong> has been updated as follows,",
+      "addWithNamingNormalization": " with naming normalisation: <strong>{{namingNormalisation}}</strong>",
+      "addNewAdditionalService": "A new Additional Service <strong>{{name}}</strong> - <strong>{{destination}}</strong> - <strong>{{lastMileService}}</strong>, has been created",
+      "updateAdditionalService": "The timeline for the Additional Service <strong>{{name}}</strong> - <strong>{{destination}}</strong> - <strong>{{lastMileService}}</strong> has been updated as follows,"
+    },
+    "lastMileService": {
+      "type": "Last Mile Service",
+      "type_DELIVERY": "Delivery",
+      "type_RETURN": "Returns"
+    }
+  },
+  "contractLastMileAdditionalServices": {
+    "title": "Additional Service Shares & Prices",
+    "description": "Add last mile destinations, their shares and prices.",
+    "serviceWithDestinationHeader": "Additional Services with Last Mile Destinations",
+    "serviceHeader": "Additional Services",
+    "addService": "Add Additional Service",
+    "addDestination": "Add Last Mile Destination",
+    "editService": "Edit",
+    "inherited": "Inherited",
+    "addServiceButtonInherited": "This contract last mile service is inherited from the source contract, you cannot add a new additional service",
+    "addAdditionalService": {
+      "header": "Add Additional Service",
+      "serviceName": "Additional Service",
+      "serviceNamePlaceHolder": "Select Additional Service",
+      "facilityFormLabel": "Facility",
+      "facilityPlaceHolder": "Select Facility",
+      "facilitySelectHeader": "{{type}} Facility",
+      "facilityRequired": "Facility is required",
+      "cancel": "Cancel",
+      "save": "Save",
+      "fulfillmentCentersGroup": "Fulfillment Centers",
+      "returnCentersGroup": "Return Centers",
+      "namingNormalisation": "Carrier Naming Normalisation for Additional Service",
+      "timelinesTitle": "Additional Service Destination Timeline Implementation"
+    },
+    "cashOnServicesShareAlert": " The total share between Cash on Delivery & Card on Delivery does not add up to a 100% in multiple months."
+  },
+  "contractInjectionHub": {
+    "title": "Carrier Injection Hub Configurations",
+    "emptyState": {
+      "description": "No carrier injection hubs configured, please create a new carrier injection hub and provide configurations",
+      "addInjectionHub": "Add Carrier Injection Hub"
+    },
+    "injectionHubCard": {
+      "title": "Carrier Injection Hub Details",
+      "inherited": "Inherited",
+      "update": "Update Carrier Injection Hub",
+      "address": "Carrier Injection Hub Address",
+      "branchCode": "Eyefreight Branchcode",
+      "loadingType": "Loading Type",
+      "operatingHours": "Operating Hours",
+      "buildingName": "Building Name"
+    },
+    "injectionHubConfigurationsCard": {
+      "title": "Carrier Injection Hub Configurations",
+      "addFacility": "Add Facility",
+      "deleteFacility": "Delete Facility",
+      "copyFacility": "Copy Configuration from Another Facility",
+      "deleteFacilityModal": {
+        "title": "Are you sure you want to delete this facility?",
+        "description": "Are you sure you want to delete this facility <strong>{{facilityName}}</strong>. Information cannot be recovered after deleting.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "noFacilityCard": {
+      "empty": {
+        "description": "Facility connection for this configuration is not provided",
+        "addFacility": "Configure Facility"
+      }
+    },
+    "addRegionalAreaModal": {
+      "title": "Add Configuration",
+      "regionalAreaTitle": "Regional Area",
+      "description": "Select regional area and provide parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+      "weekdayAlert": "Changes made on a week or day will apply to all following timeline",
+      "parcelSortingCapacity": "Parcel Sorting Capacity",
+      "latestInjectionTime": "Latest Injection Time",
+      "serviceLevelAgreement": "Service Level Agreement",
+      "label": "Regional Area Name",
+      "placeholder": "Regional Area name",
+      "validation": {
+        "type": "{{context}}",
+        "type_REQUIRED": "Regional area is required"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "regionalAreaAdditionalServiceModal": {
+      "description": "Select additional service and provide parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+      "additionalServiceTitle": "Additional Service",
+      "additionalServiceLabel": "Additional Service Name",
+      "validation": {
+        "required": "Additional Service is required"
+      }
+    },
+    "addFacilityModal": {
+      "title": "Add Facility",
+      "description": "Select a facility",
+      "label": "Facility",
+      "placeholder": "Facility",
+      "lastMileServiceType": {
+        "label": "Select a last mile service type",
+        "delivery": "Delivery",
+        "returns": "Returns"
+      },
+      "optionGroups": {
+        "fulfillmentCenters": "Fulfillment Centers",
+        "returnCenters": "Return Centers",
+        "outboundSortationCenters": "Outbound Sortation Centers"
+      },
+      "validation": {
+        "required": "Facility is required",
+        "lastMileServiceRequired": "At least one last mile service type must be selected"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "copyConfigurationModal": {
+      "title": "Copy Configurations from Another Facility",
+      "description": "Select a facility to copy configuration from to this facility",
+      "copyFrom": {
+        "label": "Copy from",
+        "placeholder": "Select Facility",
+        "validation": {
+          "required": "Facility is required"
+        }
+      },
+      "copyTo": {
+        "label": "Copy into Facility"
+      },
+      "notification": "The copied data will remain unchanged, independent of future updates to the source",
+      "successNotification": {
+        "message": "Configuration Duplicated",
+        "description": "Configuration {{sourceName}} has been copied into another facility configuration {{targetName}}"
+      },
+      "confirmation": {
+        "title": "Configurations in the target facility will be overwritten!",
+        "description": "By copying the configuration to <strong>{{name}}</strong>, any existing configurations will be removed. Are you sure you want to proceed? This action cannot be undone.",
+        "confirm": "Copy Configuration",
+        "cancel": "Cancel"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "notifications": {
+      "configurationSaved": {
+        "message": "Changes Saved",
+        "description": "Changes have been saved"
+      },
+      "connectionCreated": "Connection Created",
+      "connectionFailed": "Failed to create the connection"
+    },
+    "injectionHubConfigurationsTable": {
+      "configName": "Configuration Name",
+      "today": "Today",
+      "fieldKey": "{{context}}",
+      "inherited": "This configuration is inherited from the source contract, you can not update it",
+      "fieldKey_parcelSortingCapacity": "Parcel Sorting Capacity",
+      "fieldKey_latestInjectionTime": "Latest Injection Times",
+      "fieldKey_serviceLevelAgreementDay0": " Service Level Agreement  - Day of Injection +0",
+      "fieldKey_serviceLevelAgreementDay1": " Service Level Agreement  - Day of Injection +1",
+      "fieldKey_serviceLevelAgreementDay2": " Service Level Agreement  - Day of Injection +2",
+      "fieldKey_serviceLevelAgreementDay3": " Service Level Agreement  - Day of Injection +3",
+      "fieldKey_serviceLevelAgreementDayRest": " Service Level Agreement  - Day of Injection +Rest",
+      "parcelSortingCapacityUnits": "{{context}}",
+      "parcelSortingCapacityUnits_PER_WEEK": "(per Week)",
+      "parcelSortingCapacityUnits_PER_DAY": "(per Day)",
+      "invalidLatestInjectionTimeAlert": "Some of the latest injection times are invalid as they are outside of the operating hours for the carrier injection hub",
+      "updateButton": "Update Configuration",
+      "addInformation": "Add Information",
+      "standardConfiguration": {
+        "title": "Injection Hub Configuration",
+        "description": "Add the sorting capacity, latest injection times and service level agreement per day",
+        "updateButton": "Update Configuration",
+        "inherited": "This configuration is inherited from the source contract, you can not update it",
+        "emptyState": {
+          "description": "Injection Hub Configuration not provided",
+          "addConfiguration": "Configure Injection Hub Configuration",
+          "inherited": "This configuration is inherited from the source contract, you can not update it"
+        }
+      }
+    },
+    "injectionHubMetadataTable": {
+      "configName": "Metadata",
+      "parcelSortingCapacity": "Parcel Sorting Capacity",
+      "latestInjectionTime": "Latest Injection Time",
+      "serviceLevelAgreement": "Service Level Agreement",
+      "addInformation": "Add Information",
+      "delivery": "Delivery",
+      "returns": "Returns",
+      "metadataUpdateSuccess": {
+        "message": "Changes Saved",
+        "description": "Information changes have been saved"
+      }
+    },
+    "regionalAreaInjectionHubConfigurationCard": {
+      "title": "Regional Area Configuration",
+      "description": "Select regional area and provide sorting capacity, latest injection times and service level agreement per day",
+      "regionalAreaName": "Regional Area Name",
+      "emptyState": {
+        "description": "Regional Area Configuration not provided",
+        "addConfiguration": "Configure Regional Area Configuration"
+      },
+      "regionalAreaNotExists": "Regional area is not defined for this contract",
+      "addConfiguration": "Configure Another Regional Area",
+      "inherited": "This configuration is inherited from the source contract, you can not update it"
+    },
+    "addionalService": {
+      "title": "Additional Service Configuration",
+      "configureAdditonalService": "Configure Additional Service",
+      "addAdditionalServiceConfiguration_zero": "Configure Additional Service",
+      "addAdditionalServiceConfiguration_one": "Configure Another Additional Service",
+      "addAdditionalServiceConfiguration_other": "Configure Another Additional Service"
+    },
+    "standardInjectionModal": {
+      "title": "Add Configuration",
+      "description": "Provide  parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+      "weekdayAlert": "Changes made on a week or day will apply to all following timeline",
+      "parcelSortingCapacity": "Parcel Sorting Capacity",
+      "latestInjectionTime": "Latest Injection Time",
+      "serviceLevelAgreement": "Service Level Agreement",
+      "validation": {
+        "type": "{{context}}",
+        "type_REQUIRED": "Field is required"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "standardAdditionalServiceInjectionModal": {
+      "title": "Add Configuration",
+      "description": "Select additional service and provide parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+      "weekdayAlert": "Changes made on a week or day will apply to all following timeline",
+      "additionalService": "Additional Service",
+      "parcelSortingCapacity": "Parcel Sorting Capacity",
+      "latestInjectionTime": "Latest Injection Time",
+      "serviceLevelAgreement": "Service Level Agreement",
+      "validation": {
+        "type": "{{context}}",
+        "type_REQUIRED": "Field is required"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "metadataEditor": {
+      "title": "Parcel Sorting Capacity, Latest Injection Time & SLA",
+      "description": "Provide  parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+      "parcelSortingCapacity": "Parcel Sorting Capacity",
+      "latestInjectionTime": "Latest Injection Time",
+      "serviceLevelAgreement": "Service Level Agreement"
+    }
+  },
+  "lastMileProductForm": {
+    "title": "Add Last Mile Product Naming Normalisation",
+    "standardNamingLabel": "Zalando Standard",
+    "carrierSpecificName": {
+      "label": "Carrier Standard ({{name}})",
+      "placeholder": "Carrier Standard"
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "inherited": "Naming Normalisation is inherited from the source contract"
+  },
+  "destinationForm": {
+    "addTitle": "Add Last Mile Destination",
+    "updateTitle": "Update Last Mile Destination",
+    "destination": {
+      "label": "Last Mile Destination",
+      "placeholder": "Last Mile Destination"
+    },
+    "emptyTimelinesConfirmation": {
+      "title": "Save last mile destination without timeline?",
+      "description": "Saving {{destination}} without a timeline will prevent adding prices and shares.",
+      "cancel": "Cancel",
+      "confirm": "Save"
+    },
+    "namingNormalisationTitle": "Carrier Naming Normalisation for Additional Service",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "copyToMonthsForm": {
+    "title": "Copy Information Summary",
+    "subtitle": "Copy To",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "months": {
+      "label": "Select Months",
+      "placeholder": "Select Months"
+    },
+    "validation": {
+      "required": "Field is required",
+      "max": "Only {{count}} months can be selected"
+    },
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "copyShareForm": {
+    "share": {
+      "label": "Split Share",
+      "value": "{{share}}%"
+    }
+  },
+  "copyPriceForm": {
+    "price": {
+      "label": "Base Price"
+    }
+  },
+  "copyPriceWithDimensionsForm": {
+    "basePrice": {
+      "label": "Base Price",
+      "value": "{{currency}} {{price}}"
+    },
+    "dimensions": {
+      "label": "Dimension Ranges"
+    },
+    "multipleRanges": {
+      "label": "Range Selection",
+      "description_one": "{{count}} range selected",
+      "description_other": "{{count}} ranges selected",
+      "moreButton": "See Ranges"
+    }
+  },
+  "contractDescription": {
+    "lastMileService": "Last Mile Service",
+    "businessUnit": "Business Unit",
+    "deliveryCountry": "Delivery Country"
+  },
+  "contractCarrierPage": {
+    "breadcrumb": "Carrier Details",
+    "title": "Carrier Details",
+    "details": {
+      "title": "Carrier Details",
+      "name": "Carrier Registered Name",
+      "sapId": "SAP Vendor ID",
+      "vat": "VAT Registration",
+      "type": "Carrier Type",
+      "address": "Carrier Address"
+    }
+  },
+  "contractInjectionHubConfigsPage": {
+    "breadcrumb": "Carrier Injection Hub Configurations",
+    "title": "Carrier Injection Hub Configurations",
+    "addInjectionHubConfigModal": {
+      "title": "Add Carrier Injection Hub",
+      "subtitle": "Select an existing carrier injection hub",
+      "label": "Carrier Injection Hub",
+      "placeholder": "Select Carrier Injection Hub",
+      "addNew": "Create New Carrier Injection Hub",
+      "required": "Carrier Injection Hub is required",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "addInjectionHubConfig": "Add Carrier Injection Hub",
+    "deleteConfig": "Delete Carrier Injection Hub",
+    "deleteInjectionHubConfigModal": {
+      "title": "Are you sure you want to delete this carrier injection hub?",
+      "description": "Are you sure you want to delete this carrier injection hub <strong>{{facilityName}}</strong>. Deleted information cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "contractCreateInjectionHubPage": {
+    "breadcrumb": "Create Carrier Injection Hub & Configuration",
+    "title": "Create Carrier Injection Hub & Configuration",
+    "form": {
+      "save": "Save & Continue"
+    },
+    "notification": {
+      "injectionHubCreated": {
+        "message": "New Carrier Injection Hub Created",
+        "description": "New carrier injection hub <strong>{{name}}</strong> has been created"
+      },
+      "injectionHubCreatedWithMetadata": {
+        "message": "New Carrier Injection Hub & Metadata Created",
+        "description": "New carrier injection hub <strong>{{name}}</strong> and its metadata have been created"
+      },
+      "metadataCreationFailed": {
+        "message": "Metadata Creation Failed",
+        "description": "Failed to create carrier injection hub metadata"
+      },
+      "validationFailed": {
+        "message": "Validation Failed",
+        "description": "Please fix the errors in the metadata form before saving"
+      }
+    }
+  },
+  "contractUpdateInjectionHubPage": {
+    "breadcrumb": "Update Carrier Injection Hub & Configuration",
+    "title": "Update Carrier Injection Hub & Configuration",
+    "form": {
+      "save": "Save & Continue"
+    },
+    "notification": {
+      "injectionHubCreated": {
+        "message": "Changes Saved",
+        "description": "Changes to carrier injection hub <strong>{{name}}</strong> have been saved"
+      }
+    }
+  },
+  "contractCreateInjectionHubConfigPage": {
+    "breadcrumb": "Create Carrier Injection Hub & Configuration",
+    "title": "Create Carrier Injection Hub & Configuration"
+  },
+  "injectionHubForm": {
+    "branchCode": {
+      "title": "Carrier Injection Hub Eyefreight Branchcode",
+      "description": "Provide eyefreight branchcode for the carrier injection hub",
+      "label": "Eyefreight Branchcode",
+      "placeholder": "Eyefreight Branchcode"
+    },
+    "address": {
+      "title": "Carrier Injection Hub Address",
+      "description": "Provide the address for the carrier injection hub",
+      "buildingName": {
+        "label": "Building Name",
+        "placeholder": "Please provide building name"
+      },
+      "addressLine": {
+        "label": "Address Line",
+        "placeholder": "Address Line"
+      },
+      "postalCode": {
+        "label": "Postal Code",
+        "placeholder": "Postal Code"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "City"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Country"
+      }
+    },
+    "operatingHours": {
+      "title": "Carrier Injection Hub Operating Hours",
+      "description": "Select the operating hours for the carrier injection hub",
+      "applyToAll": "Apply to all days",
+      "validation": {
+        "required": "Operating Hours are required",
+        "oneFieldIsEmpty": "Select the operating hours"
+      }
+    },
+    "loadingType": {
+      "title": "Loading Type",
+      "description": "Define loading type for the carrier injection hub",
+      "label": "Loading Type"
+    },
+    "validation": {
+      "required": "${label} is required"
+    },
+    "updateOperatingHoursConfirmation": {
+      "title": "Are you sure you want to save?",
+      "description": "The selected operating hours could be outside of the configured latest injection time, if you proceed the latest injection times could be invalid",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "contractCreateInjectionHubAndConfig": {
+    "form": {
+      "title": "Create Carrier Injection Hub & Configuration",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "steps": {
+      "injectionHub": {
+        "inProgress": {
+          "title": "In Progress",
+          "description": "Carrier Injection Hub Details"
+        },
+        "finished": {
+          "title": "Finished",
+          "description": "Carrier Injection Hub Details"
+        }
+      },
+      "injectionHubConfig": {
+        "waiting": {
+          "title": "Waiting",
+          "description": "Carrier Injection Hub Configuration"
+        },
+        "inProgress": {
+          "title": "In Progress",
+          "description": "Carrier Injection Hub Configuration"
+        }
+      }
+    }
+  },
+  "additionalServiceFormItem": {
+    "label": "Additional Service Name",
+    "placeholder": "Select Additional Service",
+    "validation": {
+      "type": "{{context}}",
+      "type_REQUIRED": "Additional Service is required"
+    }
+  },
+  "latestInjectionTimeFormItem": {
+    "applyToAll": "Apply to all days",
+    "placeholder": "Select Time",
+    "validation": {
+      "type": "{{context}}",
+      "type_REQUIRED": "*Latest injection time is required",
+      "type_AT_LEAST_ONE_DATE_IS_REQUIRED": "*Latest injection time for at least one day is required.",
+      "type_INVALID_DAYS": "Injection times are not within the operating hours for {{days}}",
+      "type_OUTSIDE_OPERATING_HOURS": "Injection times are not within the operating hours for the carrier injection hub."
+    },
+    "operatingTimesTooltip": "The input is disabled as the carrier injection hub is not operational on this day.",
+    "missingOperatingTimesUpdate": "Upon saving, this day's configuration will be closed automatically from tomorrow due to missing operating times."
+  },
+  "cihMetadataConfigurationModal": {
+    "description": "Provide  parcel sorting capacity (per day or per week), latest injection time and service level agreement",
+    "closeConfigAlert": "Upon saving this day's configuration will be closed automatically from tomorrow due to missing operating times.",
+    "weekdayAlert": "Changes made on a week or day will apply to all following timeline",
+    "applyToAllDisabledTooltip": "Apply to all is disabled as some days have missing operating hours",
+    "parcelSortingCapacity": "Parcel Sorting Capacity",
+    "latestInjectionTime": "Latest Injection Time",
+    "serviceLevelAgreement": "Service Level Agreement",
+    "save": "Save",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "applyToAllActive": {
+      "capacity": "The daily limit will be applied to all days.",
+      "latestInjectionTime": "The latest injection time will be applied to all days.",
+      "serviceLevelAgreement": "It will be applied to all days."
+    },
+    "title": {
+      "action": "{{context}}",
+      "action_ADD": "Add Configuration - {{date}}",
+      "action_UPDATE": "Update Configuration - {{date}}"
+    }
+  },
+  "parcelSortingCapacityFormItem": {
+    "type": "{{context}}",
+    "type_PER_DAY": "Daily Capacity",
+    "type_PER_WEEK": "Weekly Capacity",
+    "labelWeekly": "Weekly Capacity",
+    "applyToAll": "Apply to all days",
+    "validation": {
+      "capacity": {
+        "type": "{{context}}",
+        "type_NOT_NATURAL_NUMBER": "Invalid Value",
+        "type_INVALID_VALUE": "Invalid Value",
+        "type_MAX_VALUE": "Sorting capacity should be less than 100000",
+        "type_REQUIRED": "Field is required",
+        "type_SHOULD_NOT_BE_EMPTY": "*Parcel sorting capacity for at least one day is required"
+      }
+    },
+    "operatingTimesTooltip": "The input is disabled as the carrier injection hub is not operational on this day.",
+    "missingOperatingTimesUpdate": "Upon saving this day's configuration will be closed automatically from tomorrow due to missing operating times."
+  },
+  "slaFormItem": {
+    "day0": {
+      "label": "Day of Injection +0"
+    },
+    "day1": {
+      "label": "Day of Injection +1"
+    },
+    "day2": {
+      "label": "Day of Injection +2"
+    },
+    "day3": {
+      "label": "Day of Injection +3"
+    },
+    "dayRest": {
+      "label": "Day of Injection >3"
+    },
+    "validation": {
+      "min": "Invalid Value",
+      "max": "Invalid Value"
+    },
+    "applyToAll": "Apply to all days",
+    "suffix": "%",
+    "noOperatingTimes": "No valid operating hours defined for any day of the week"
+  },
+  "injectionHubConfigForm": {
+    "addStandardInjection": "Configure Standard Injection",
+    "addArea": "Configure Regional Area Injection",
+    "sortingCapacity": {
+      "placeholder": "Sorting Capacity",
+      "validation": {
+        "required": "Sorting capacity is required",
+        "greaterThanZero": "Sorting capacity should be greater than 0"
+      }
+    },
+    "latestInjectionTimes": {
+      "applyToAll": "Apply to all days",
+      "validation": {
+        "invalid": "Invalid Value",
+        "required": "Latest injection times are required"
+      }
+    },
+    "serviceLevelAgreement": {
+      "title": "Service Level Agreement Configuration",
+      "description": "Configure service level agreement for delivery and returns",
+      "deliverySubtitle": "Delivery",
+      "returnsSubtitle": "Returns",
+      "units": "%",
+      "validation": {
+        "required": "Field is required",
+        "invalid": "Invalid Value"
+      }
+    },
+    "standardInjection": {
+      "title": "Standard Injection Configuration",
+      "sortingCapacity": {
+        "title": "Delivery Parcel Sorting Capacity",
+        "description": "Define parcel sorting capacity for delivery"
+      },
+      "latestInjectionTimes": {
+        "title": "Delivery Latest Injection Times",
+        "description": "Provide latest injection times for delivery"
+      },
+      "serviceLevelAgreement": {
+        "title": "Service Level Agreement",
+        "label": {
+          "type": "Day of Injection",
+          "type_day0": "Day of Injection +0",
+          "type_day1": "Day of Injection +1",
+          "type_day2": "Day of Injection +2",
+          "type_day3": "Day of Injection +3",
+          "type_rest": "Day of Injection >3"
+        }
+      },
+      "latestInjectionTimeAgreement": {
+        "title": "Before Latest Injection Service Level Agreement",
+        "label": {
+          "type": "Day of Injection",
+          "type_day0": "Day of Injection +0",
+          "type_day1": "Day of Injection +1",
+          "type_day2": "Day of Injection +2",
+          "type_day3": "Day of Injection +3",
+          "type_rest": "Day of Injection >3"
+        }
+      },
+      "returnsServiceLevelAgreement": {
+        "title": "Service Level Agreement",
+        "label": {
+          "type": "Day of Returns",
+          "type_day0": "Day of Returns +0",
+          "type_day1": "Day of Returns +1",
+          "type_day2": "Day of Returns +2",
+          "type_day3": "Day of Returns +3",
+          "type_rest": "Day of Returns >3"
+        }
+      }
+    },
+    "validation": {
+      "required": "${label} is required"
+    }
+  },
+  "contractCreateInjectionHubAndConfigSteps": {
+    "title": "Create Carrier Injection Hub & Configuration",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "contractPostalcodeConfigurationPage": {
+    "breadcrumb": "Postal Code Configuration",
+    "title": "Postal Codes Configuration",
+    "inherited": "Inherited",
+    "inheritedTooltip": "Postal codes configuration is inherited from the source contract, you cannot update it",
+    "form": {
+      "title": "Postal Codes Configuration",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "save": {
+      "success": "Postal Codes Saved",
+      "successDescription": "Postal codes configuration has been successfully saved",
+      "error": "Failed to Save",
+      "errorDescription": "An error occurred while saving postal codes configuration"
+    },
+    "availablePostCodes": {
+      "title": "Available Postal Codes",
+      "subtitle": "Provide all available postal codes for this contract",
+      "emptyContentButtonText": "Provide Postal Codes",
+      "emptyContentDescripitionText": "No available postal codes provided, select to provide postal code ranges or a sequence",
+      "alertMessage": "Available postal codes is a combination of all postal codes that will be provided in other fields and cross checked with other fields"
+    },
+    "postalCodesByInjectionDayCardContentProps": {
+      "addDayButton": "Add Another Delivery Day and Postal Codes",
+      "deletionText": " <strong>{{dayOfInjection}}</strong> configuration",
+      "resolveConflictsButton": "Details",
+      "resolveConflictsText": "Some postal codes are duplicatest between ",
+      "and": " and "
+    },
+    "deliveryDayPostalCodes": {
+      "title": "Delivery Day Postal Codes",
+      "subtitle": "Provide delivery day postal codes from the available postal set",
+      "emptyContentButtonText": "Select Day of Injection and Provide Postal Codes",
+      "emptyContentDescripitionText": "No available delivery day postal codes have been provided, select to provide postal code ranges or a sequence",
+      "toolTipText": "Delivery day postal codes cannot be provided without available postal codes"
+    },
+    "postalCodesByInjectionDayModal": {
+      "title": "Add Day of Injection",
+      "subtitle": "Select to add a day of injection for delivery day postal codes",
+      "selectLabel": "Day of Injection",
+      "cancelButton": "Cancel",
+      "okButton": "Save"
+    },
+    "restrictedPostalCodesModal": {
+      "title": "Add Last Mile Destintion",
+      "subtitle": "Select to add a last mile destination for restricted postal codes",
+      "selectLabel": "Last Mile Destination",
+      "cancelButton": "Cancel",
+      "okButton": "Save"
+    },
+    "restrictedPostalCodesCardContent": {
+      "addDestinationButton": "Add Another Last Mile Destination and Postal Codes",
+      "deletionText": " last mile destination restricted postal code configuration for <strong>{{destination}}</strong>"
+    },
+    "regionalAreaPostalCodesCardContent": {
+      "addRegionalAreaButton": "Add Another Regional Area and Postal Codes",
+      "deletionText": " regional area <strong>{{regionalArea}}</strong> configuration",
+      "state": "<strong>State:</strong> ",
+      "cities": "<strong>Cities:</strong> "
+    },
+    "regionalAreaPostalCodesModal": {
+      "title": "Add Regional Area",
+      "description": "Select an existing regional area or create a new one",
+      "selectLabel": "Regional Area",
+      "selectPlaceholder": "--",
+      "ok": "Save",
+      "cancel": "Cancel",
+      "noAvailableAreas": "No regional areas available",
+      "createNewArea": "Create New Regional Area"
+    },
+    "deleteConfigurationConfirmDialog": {
+      "title": "Are you sure you want to delete this configuration?",
+      "description": "Are you sure you want to delete {{content}}. All associated configurations will be deleted and cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "confirmCancelEdits": {
+      "title": "Cancel edits",
+      "description": "Are you sure you want to cancel your edits? All edits will be lost.",
+      "confirm": "Okay",
+      "cancel": "Cancel"
+    },
+    "dayOfInjection": {
+      "plusZero": "Day of Injecton +0",
+      "plusOne": "Day of Injecton +1",
+      "plusTwo": "Day of Injecton +2",
+      "plusThree": "Day of Injecton +3",
+      "plusRest": "Day of Injecton >3"
+    },
+    "dayOfInjectionShort": {
+      "plusZero": "DoI+0",
+      "plusOne": "DoI+1",
+      "plusTwo": "DoI+2",
+      "plusThree": "DoI+3",
+      "plusRest": "DoI>3"
+    },
+    "lastMileDestinationRestrictedPostalCodes": {
+      "title": "Last Mile Destination Restricted Postal Codes",
+      "subtitle": "Restrict last mile destination postal codes from the available postal set",
+      "emptyContentButtonText": "Select Last Mile Destination and Provide Postal Codes",
+      "emptyContentDescripitionText": "No last mile destination has been selected and no restricted post codes have been provided, select a last mile destination and provide postal codes",
+      "toolTipText": "Restricted postal codes cannot be provided without available postal codes"
+    },
+    "regionalAreaRestrictedPostalCodes": {
+      "title": "Regional Area Postal Codes Delivery",
+      "subtitle": "Create a regional area and provide postal codes for the regional area",
+      "emptyContentButtonText": "Create Regional Area and Provide Postal Codes",
+      "emptyContentDescripitionText": "No regional area has been configured and no postal codes have been provided, create a regional area and provide postal codes",
+      "toolTipText": "Regional area postal codes cannot be provided without available postal codes"
+    },
+    "conflictResolution": {
+      "title": "Error details",
+      "alertDescription": "Some postal codes are duplicates between {{injectionDays}}, select what to do with the following postal codes.",
+      "postalCode": "Postal Code",
+      "duplicatedIn": "Duplicated In",
+      "action": "Action",
+      "deleteFromAll": "Delete from All",
+      "deleteSelectedFromAll": "Delete All Selected from All",
+      "keepIn": "Keep in ",
+      "keepAllSelected": "Keep All Selected in ",
+      "cancel": "Cancel",
+      "resolve": "Resolve Issues",
+      "remaining": "Remaining",
+      "bulkActions": "Actions",
+      "selectDay": "Select day",
+      "totalConflicts": "Total postal codes detected",
+      "resolved": "Resolved"
+    },
+    "newRegionalAreaModal": {
+      "title": "New Regional Area",
+      "contractDetails": "Contract Details",
+      "primaryRegionalAreaTypeLabel": "Primary Regional Area",
+      "primaryRegionalAreaTypePlaceholder": "Primary Regional Area",
+      "primaryRegionalAreaNameLabel": "Name",
+      "primaryRegionalAreaNamePlaceholder": "Name",
+      "secondaryRegionalAreaTypeLabel": "Secondary Regional Area",
+      "secondaryRegionalAreaTypePlaceholder": "Secondary Regional Area",
+      "secondaryRegionalAreaNameLabel": "Name",
+      "secondaryRegionalAreaNamePlaceholder": "Name",
+      "tertiaryRegionalAreaNameLabel": "Tertiary Regional Area",
+      "tertiaryRegionalAreaNamePlaceholder": "Tertiary Regional Area",
+      "validation": {
+        "required": "${label} is required",
+        "displayNameRequired": "Required",
+        "displayNameMinLength": "Min 3 characters",
+        "displayNameMaxLength": "Max 50 characters",
+        "displayNameInvalidCharacters": "Invalid name"
+      },
+      "displayNameLabel": "Display Name",
+      "displayNamePlaceholder": "Display Name",
+      "notifications": {
+        "regionalAreaCreated": {
+          "message": "Regional Area Created",
+          "description": "New regional area <strong>{{name}}</strong> has been created"
+        }
+      },
+      "selectAll": "Select All",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "contractInvoiceDetailsPage": {
+    "breadcrumb": "Invoicing Details",
+    "title": "Invoicing Details",
+    "form": {
+      "title": "Invoicing Details",
+      "inherited": "Inherited",
+      "fieldInherited": "This field is inherited from the source contract",
+      "saveButtonInherited": "Configuration could not be saved as it is inherited from the source contract",
+      "save": "Save",
+      "cancel": "Cancel",
+      "currency": {
+        "title": "Invoice Currency",
+        "description": "Select the currency for this contract",
+        "label": "Currency",
+        "placeholder": "Select Currency"
+      },
+      "paymentTerms": {
+        "title": "Invoice Payment Terms",
+        "description": "Select the invoice payment terms for this contract",
+        "label": "Invoice Payment Terms",
+        "placeholder": "Select Invoice Payment Terms",
+        "optionLabel_one": "{{count}} day",
+        "optionLabel_other": "{{count}} days"
+      },
+      "notification": {
+        "changesSaved": {
+          "message": "Changes Saved",
+          "description": "Your changes have been saved for the carrier contract <strong>{{name}}</strong>"
+        }
+      },
+      "validation": {
+        "required": "${label} is required"
+      }
+    }
+  },
+  "unsavedChangesModal": {
+    "title": "There are some unsaved changes",
+    "description": "There are some unsaved changes, are you sure you want to leave the page, all changes will be lost",
+    "confirm": "Leave the page",
+    "cancel": "Cancel"
+  },
+  "contractInheritanceConfigurationPage": {
+    "breadcrumb": "Inherit Configuration",
+    "title": "Create Inherit & Share Configuration",
+    "missingInheritedContract": "Missing Inherited Contract, please add the carrier contract to inherit to.",
+    "controls": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "setupInheritedContract": "Add Carrier"
+    },
+    "sourceAndTargetCard": {
+      "sourceTitle": "Source",
+      "targetTitle": "Target",
+      "businessUnitLabel": "Business Unit",
+      "deliveryCountryLabel": "Delivery Country"
+    },
+    "contractsList": {
+      "inheritCarrierSwitch": "Inherit Carrier",
+      "deliveryConfiguration": "Delivery Configuration",
+      "returnsConfiguration": "Returns Configuration",
+      "switchCheckedLabel": "Yes",
+      "switchUncheckedLabel": "No",
+      "lastMileProductConfig": {
+        "title": "Inherit Last Mile Type",
+        "parentSwitchLabel": "Select configurations for the last mile destinations",
+        "configTable": {
+          "columns": {
+            "lastMileDestination": "Last Mile Destination",
+            "price": "Inherit Pricing",
+            "namingNormalisation": "Inherit Naming Normalisation",
+            "timeline": "Inherit Timelines",
+            "share": "Share Shares",
+            "timelineConfigs_EDIT": "Update Timelines",
+            "timelineConfigs_ADD": "Set Timelines"
+          }
+        },
+        "timelineEditDisabledTitle": "Can't Edit Timelines",
+        "timelineEditDisabledDescription": "Timelines cannot be edited unless inherited by prices or naming normalisation"
+      },
+      "timelineConfigs": {
+        "title": "Manage Timelines",
+        "okText": "Save",
+        "cancelText": "Cancel",
+        "fieldTitle_ADD": {
+          "type": "Set Timelines",
+          "type_LAST_MILE_DESTINATION": "Set timelines for Last Mile Destination - {{lastMileDestination}}",
+          "type_LAST_MILE_ADDITIONAL_SERVICE": "Set timelines for Last Mile Additional Service - {{lastMileAdditionalService}} for Last Mile Destination - {{lastMileDestination}}"
+        },
+        "fieldTitle_EDIT": {
+          "type": "Edit Timelines",
+          "type_LAST_MILE_DESTINATION": "Edit timelines for Last Mile Destination - {{lastMileDestination}}",
+          "type_LAST_MILE_ADDITIONAL_SERVICE": "Edit timelines for Last Mile Additional Service - {{lastMileAdditionalService}} for Last Mile Destination - {{lastMileDestination}}"
+        },
+        "cancelConfirmTitle": "Are you sure you want to cancel?",
+        "cancelConfirmDescription": "Are you sure you want to cancel the changes? All unsaved changes will be lost.",
+        "cancelConfirmCancel": "Cancel",
+        "cancelConfirmOk": "Leave"
+      },
+      "generalConfiguration": {
+        "directionLabel": "General",
+        "title": "General Configuration",
+        "invoiceTermTitle": "Inherit Carrier Invoicing Terms",
+        "parentSwitchLabel": "Select to inherit invoice payment terms and invoice currency "
+      },
+      "lastMileAdditionalServiceConfig": {
+        "title": "Inherit Last Mile Additional Service with Last Mile Destination",
+        "parentSwitchLabel": "Select configurations for the additional services and their last mile destinations",
+        "configTable": {
+          "columns": {
+            "nothingToInherit": "All the additional services are inherited from the source contract, you can not update them",
+            "partialInheritedAlert": "This additional services are partially inherited from the source contract. if you switch on this configuration, all additional services with destination will be inherited",
+            "lastMileAdditionalService": "Additional Service Name",
+            "inheritConfiguration": "Inherit Configuration",
+            "lastMileDestination": "Last Mile Destination",
+            "price": "Inherit Pricing",
+            "namingNormalisation": "Inherit Naming Normalisation",
+            "timeline": "Inherit Timelines",
+            "share": "Share Shares"
+          }
+        }
+      },
+      "otherLastMileAdditionalServiceConfig": {
+        "title": "Inherit Last Mile Additional Services",
+        "parentSwitchLabel": "Select configurations for the additional services",
+        "partialInheritedAlert": "This additional services are partially inherited from the source contract. if you switch on this configuration, all additional services except with destination will be inherited",
+        "configTable": {
+          "columns": {
+            "lastMileAdditionalService": "Last Mile Additional Service",
+            "price": "Inherit Pricing",
+            "namingNormalisation": "Inherit Naming Normalisation",
+            "timeline": "Inherit Timelines",
+            "share": "Share Shares"
+          }
+        }
+      },
+      "regionalAreaPostalCodesConfig": {
+        "title": "Inherit Regional Area Postal Codes",
+        "parentSwitchLabel": "Select to inherit regional areas and their postal codes",
+        "configTable": {
+          "columns": {
+            "regionalAreaName": "Regional Area Name",
+            "inheritSwitch": "Inherit Regional Area"
+          }
+        }
+      },
+      "injectionHubConfig": {
+        "title": "Inherit Carrier Injection Hub Configurations",
+        "parentSwitchLabel": "Select to inherit carrier injection hubs, their standard, additional service and regional area configurations",
+        "tables": {
+          "injectionHubsTable": {
+            "columns": {
+              "nothingToInherit": "All the facilities are inherited from the source contract, you can not update them",
+              "partialInheritedAlert": "This facilities are partially inherited from the source contract. if you switch on this configuration, all facilities with configurations will be inherited",
+              "injectionHubName": "Carrier Injection Hub Name",
+              "inheritAllConfigurations": "Inherit Carrier Injection Hub with All Configurations"
+            }
+          },
+          "facilitiesTable": {
+            "columns": {
+              "facilityName": "Injection Hub Configuration Name",
+              "inheritSpecificConfiguration": "Inherit Specific Configuration"
+            }
+          },
+          "detailConfigurationsTable": {
+            "staticColumns": {
+              "type": "{{context}}",
+              "type_additional_service_and_price": "Injection Hub Configuration + Additional Services",
+              "type_regional_area_configs": "Regional Area Configurations + Additional Services "
+            },
+            "columns": {
+              "configurationName": "Injection Hub Configuration Name",
+              "inheritPriceConfigurations": "Inherit Configuration Piece"
+            }
+          },
+          "regionalAreaTable": {
+            "columns": {
+              "regionalAreaName": "Regional Area Name",
+              "inheritRegionalAreaConfiguration": "Inherit Regional Area Configuration"
+            }
+          }
+        }
+      },
+      "deliveryPostalCodes": {
+        "title": "Inherit Carrier Delivery Postal Codes",
+        "parentSwitchLabel": "Select to inherit available, delivery day and restricted per last mile destination postal codes"
+      }
+    },
+    "notifications": {
+      "inheritanceConfigurationSaved": {
+        "message": "Inheritance Configuration Saved",
+        "description": "Inheritance configuration has been saved for the carrier contract <strong>{{name}}</strong>"
+      }
+    }
+  },
+  "businessUnit": {
+    "type": "{{context}}",
+    "type_WHOLESALE": "Wholesale",
+    "type_LOUNGE": "Lounge",
+    "type_ZSS": "ZSS",
+    "type_ZFS": "ZFS",
+    "type_MCF": "Multichannel Fulfillment (Next)"
+  },
+  "parcelSortingCapacity": {
+    "type": "{{context}}",
+    "type_PER_DAY": "Per Day",
+    "type_PER_WEEK": "Per Week"
+  },
+  "lastMileCategory": {
+    "type": "{{context}}",
+    "type_STANDARD": "Standard",
+    "type_EXPRESS": "Express",
+    "type_PREMIUM": "Premium"
+  },
+  "lastMileDestinaton": {
+    "type": "{{context}}",
+    "type_HOME": "Home",
+    "type_PARCEL_SHOP": "Parcel Shop",
+    "type_PARCEL_LOCKER": "Parcel Locker",
+    "type_POST_OFFICE": "Post Office",
+    "type_HOME_LETTER_BOX": "Home Letter Box"
+  },
+  "countryAreas": {
+    "type": "{{context}}",
+    "type_STATE": "State",
+    "type_REGION": "Region",
+    "type_CITY": "City",
+    "type_PROVINCE": "Province",
+    "type_MUNICIPALITY": "Municipality",
+    "type_TERRITORY": "Territory",
+    "type_ZONE": "Zone",
+    "typePlural": "{{context}}",
+    "typePlural_STATE": "States",
+    "typePlural_REGION": "Regions",
+    "typePlural_CITY": "Cities",
+    "typePlural_PROVINCE": "Provinces",
+    "typePlural_MUNICIPALITY": "Municipalities",
+    "typePlural_TERRITORY": "Territories",
+    "typePlural_ZONE": "Zones"
+  },
+  "lastMileAdditionalService": {
+    "type": "{{context}}",
+    "type_ADDRESS_CORRECTION": "Address Correction",
+    "type_RELABELING": "Relabeling",
+    "type_RE_ROUTING": "Re-Routing",
+    "type_2ND_DELIVERY_ATTEMPT": "2nd Delivery Attempt",
+    "type_3RD_DELIVERY_ATTEMPT": "3rd Delivery Attempt",
+    "type_REJECTED_PARCELS": "Rejected Parcels",
+    "type_MISROUTED_PARCELS": "Misrouted Parcels",
+    "type_UNDELIVERABLE": "Undeliverable",
+    "type_RETURN_TO_SENDER": "Return To Sender",
+    "type_CASH_ON_DELIVERY": "Cash On Delivery",
+    "type_CARD_ON_DELIVERY": "Card On Delivery",
+    "type_CASH_ON_DELIVERY_CORRECTION": "Cash On Delivery Correction",
+    "type_PROOF_OF_DELIVERY_SIGNATURE": "Proof Of Delivery - Signature",
+    "type_BEAUTY_NON_DANGEROUS": "Beauty Non-Dangerous",
+    "type_BEAUTY_DANGEROUS": "Beauty Dangerous",
+    "type_BULKY_GOODS": "Bulky Goods",
+    "type_SMALL_GOODS": "Small Goods",
+    "type_WEIGHT_RELATED": "Weight Related",
+    "type_MANUEL_PROCESSING": "Manual Processing",
+    "type_MANUAL_PROCESSING": "Manual Processing",
+    "type_NO_PRE_ADVICE": "No Pre-Advice",
+    "type_SATURDAY_SORTING": "Saturday Sorting",
+    "type_SUNDAY_SORTING": "Sunday Sorting",
+    "type_WEEKEND_SORTATION": "Weekend Sortation",
+    "type_EVENING_DELIVERY": "Evening Delivery",
+    "type_MORNING_DELIVERY": "Morning Delivery",
+    "type_SATURDAY_DELIVERY": "Saturday Delivery",
+    "type_SUNDAY_DELIVERY": "Sunday Delivery",
+    "type_WISH_DAY": "Wish Day",
+    "type_SAMEDAY_DELIVERY": "Sameday Delivery",
+    "type_PEAK_SURCHARGE": "Peak Surcharge",
+    "type_TOLL_SURCHARGE": "Toll Surcharge",
+    "type_LINEHAUL_SURCHARGE": "Linehaul Surcharge",
+    "type_DISCOUNTS": "Discounts",
+    "type_LOW_SEASON_DISCOUNT": "Low Season Discount",
+    "type_CARBON_OFFSET_SUSTAINABILITY": "Carbon Offset Sustainability",
+    "type_FUEL_PERCENTAGE": "Fuel Percentage",
+    "type_FUEL_FLOATER_INDEX": "Fuel Floater Index",
+    "type_CROSS_DOCK_FEE": "Cross Dock Fee",
+    "type_EXTENDED_AREA": "Extended Area",
+    "type_REMOTE_AREAS": "Remote Areas",
+    "type_INSURANCE": "Insurance",
+    "type_WEBFORM": "Webform",
+    "type_LIGHT_AND_LARGE_SERVICE": "Light And Large Service",
+    "type_ETA_AND_SMS_NOTIFICATION": "Eta And Sms Notification",
+    "type_ID_VERIFICATION_WITH_BANKID": "Id Verification With Bankid",
+    "type_ID_VERIFICATION_HOUSE_DOOR": "Id Verification House Door",
+    "type_FRAUD": "Fraud",
+    "type_DATA_TRANSFER": "Data Transfer",
+    "type_STORAGE_COST": "Storage Cost",
+    "type_2C_CLARIFICATION": "2c Clarification",
+    "type_ALTERNATIVE_CARRIER": "Alternative Carrier",
+    "type_CLAIMS": "Claims",
+    "type_ENERGY_SURCHARGE": "Energy Surcharge",
+    "type_PEAK_SURCHARGE_FOR_CANCELLATION_AND_UTILISATION_CHARGES": "Peak Surcharge (transport cancellation and utilisation charges)",
+    "type_SWAP_TRAILER_RENT": "Swap Trailer Rent",
+    "type_TOLL_AND_CO2": "Toll and CO2",
+    "type_SOCIAL_CONTRIBUTION": "Social Contribution",
+    "type_SATURDAY_INJECTION": "Saturday Injection",
+    "type_DISCOUNT_FOR_PRE_SORTED_DELIVERY": "Discount for Pre-sorted Delivery",
+    "type_INFLATION": "Inflation",
+    "type_MISSING_PHONE_NUMBER": "Missing Phone Number",
+    "type_LABEL_LESS_RETURN": "Labelless Returns",
+    "type_SECURE_DELIVERY": "Secure Delivery"
+  },
+  "facilities": {
+    "type": "Facilities",
+    "type_FULFILLMENT_CENTER": "Fulfillment Centers",
+    "type_RETURN_CENTER": "Return Centers",
+    "type_REFURBISHMENT_CENTER": "Refurbishment Centers",
+    "type_OUTLET_STORE": "Outlet Stores",
+    "type_OFFICE": "Offices",
+    "type_INBOUND_DISTRIBUTION_CENTER": "Inbound Distribution Centers",
+    "type_OUTBOUND_SORTATION_CENTER": "Outbound Sortation Centers",
+    "type_CONTENT_CREATION": "Content Creation",
+    "type_UNKNOWN": "Unknown Facilities",
+    "type_OTHER_FACILITIES": "Other Facilities"
+  },
+  "orderType": {
+    "type": "Order Type",
+    "type_CUSTOMER_ORDERS": "Customer Orders",
+    "type_CUSTOMER_ORDERS_TO_OSC": "Customer Orders to Outbound Sortation Center",
+    "type_CUSTOMER_ORDERS_FROM_OSC": "Customer Orders From Outbound Sortation Center",
+    "type_CUSTOMER_ORDERS_LAST_MILE_SHUTTLE": "Customer Orders Last Mile Shuttle",
+    "type_WAREHOUSE_MOVEMENT_ORDERS": "Warehouse Movement Orders",
+    "type_REPLENISHMENTS": "Replenishments",
+    "type_REPLENISHMENTS_TO_IDC": "Replenishments To IDC",
+    "type_REPLENISHMENTS_FROM_IDC": "Replenishments From IDC",
+    "type_RETURNS_TO_FULFILLMENT_CENTER": "Returns to Fulfillment Center",
+    "type_RETURNS_REFURBISHMENT": "Refurbishments",
+    "type_RETURNS_DEFECT": "Defects",
+    "type_NEW_GOODS": "New Goods",
+    "type_MATERIAL_HANDLING_PACKAGING": "Material Handling Packaging",
+    "type_MATERIAL_HANDLING_PALLETS": "Material Handling Pallets",
+    "type_MATERIAL_HANDLING_LABELING": "Material Handling Labeling",
+    "type_MATERIAL_HANDLING_CONTENT_CREATION": "Material Handling Content Creation",
+    "type_MATERIAL_HANDLING_MAIL": "Material Handling Mail",
+    "type_RELOCATIONS": "Relocations",
+    "type_UNPROCESSED_RETURNS": "Unprocessed Returns"
+  },
+  "changeReason": {
+    "type": "{{context}}",
+    "type_UNDER_MAINTENANCE": "Under Maintenance",
+    "type_UNDER_CONSTRUCTION": "Under Construction",
+    "type_TEMPORARILY_NOT_FUNCTIONAL": "Temporarily Not Functional",
+    "type_CLOSED_FOR_PEAK": "Closed For Peak",
+    "type_DISCONTINUED_FOR_COSTS_SAVINGS": "Discontinue for Costs Savings",
+    "type_DISCONTINUED_FOR_EFFICIENT_UTILIZATION": "Discontinue for Efficient Utilisation",
+    "type_PERMANENTLY_CLOSED": "Permanently Closed"
+  },
+  "processedReturnsType": {
+    "type": "Sub-Order Type",
+    "type_RETURNS_REFURBISHMENT": "Refurbishments",
+    "type_RETURNS_DEFECT": "Defects",
+    "type_RETURNS_TO_FULFILLMENT_CENTER": "Returns to Fulfillment Centers"
+  },
+  "materialHandling": {
+    "type": "Material Handling Type",
+    "type_MATERIAL_HANDLING_PALLETS": "Pallets",
+    "type_MATERIAL_HANDLING_PACKAGING": "Packaging",
+    "type_MATERIAL_HANDLING_LABELING": "Labeling",
+    "type_MATERIAL_HANDLING_CONTENT_CREATION": "Content Creation",
+    "type_MATERIAL_HANDLING_MAIL": "Mail"
+  },
+  "wmsVersion": {
+    "type": "WMS Version",
+    "type_ZALOS2": "ZALOS2",
+    "type_ZALOS3": "ZALOS3",
+    "type_TRANSPOS_RETURNS": "TRANSPOS RETURNS",
+    "type_UNMANAGED": "UNMANAGED",
+    "type_UNKNOWN": "UNKNOWN"
+  },
+  "errors": {
+    "401": {
+      "message": "Your session has expired, please refresh the page"
+    },
+    "403": {
+      "message": "You are not authorised to see this page. To gain access please contact supporttms@zalando.de"
+    },
+    "CCS:CONTRACT_WITH_KEYS_ALREADY_EXISTS": {
+      "message": "Contract with this configuration already exists",
+      "description": "A contract with the same carrier, country, and business unit configuration already exists."
+    },
+    "CCS:CARRIER_NAME_ALREADY_EXISTS": {
+      "message": "Carrier with this Registered Name already exists",
+      "description": "A carrier with the same Registered Name already exists."
+    },
+    "CCS:CARRIER_SAP_ID_ALREADY_EXISTS": {
+      "message": "Carrier with this SAP Vendor ID already exists",
+      "description": "A carrier with the same SAP Vendor ID already exists."
+    },
+    "CCS:CARRIER_VAT_ID_ALREADY_EXISTS": {
+      "message": "Carrier with this VAT Number already exists",
+      "description": "A carrier with the same VAT Number already exists."
+    },
+    "CCS:CONTRACT_ALREADY_EXISTS": {
+      "message": "Contract with this configuration already exists",
+      "description": "A contract with the same carrier, country, and business unit configuration already exists."
+    },
+    "CCS:CONTRACT_UPDATE_INVALID_STATE": {
+      "message": "Contract cannot be updated",
+      "description": "Please change the contract state to active before updating it."
+    },
+    "CCS:CARRIER_COUNTRY_CONFIG_ALREADY_EXISTS": {
+      "message": "Unsaved changes",
+      "description": "The configuration could not be saved as the selected delivery country {{country}} already exist in the system"
+    },
+    "CCS:RANGE_VALUE_OVERLAP": {
+      "message": "Overlapping Range",
+      "description": "This {{type}} {{range}} range already exists"
+    },
+    "CCS:RATE_CARD_SOURCE_FACILITY_INVALID": {
+      "message": "Unable to Save Rate Card",
+      "description": "The source facility in one of the rate cards of <0>{{validityMonth}}</0> is not valid, please update the <1>contract</1> and try again."
+    },
+    "CCS:RATE_CARD_DESTINATION_FACILITY_INVALID": {
+      "message": "Unable to Save Rate Card",
+      "description": "The destination facility in one of the rate cards of <0>{{validityMonth}}</0> is not valid, please update the <1>contract</1> and try again."
+    },
+    "CCS:RATE_CARD_CONTRACT_STATE_INVALID": {
+      "message": "",
+      "description": "Rate cards cannot be created/updated for a canceled contract. If you have any questions or require further assistance, please reach out to supporttms@zalando.de"
+    },
+    "CCS:RATE_CARD_OVERLAPPING_DIMENSIONS": {
+      "message": "",
+      "description": "It appears that another rate card already exists with the selected facilities/ranges. To avoid conflicts, please refresh the page and review the existing rate cards or make adjustments to the current one accordingly."
+    },
+    "CCS:RATE_CARD_NOT_FOUND": {
+      "message": "",
+      "description": "The rate card you're trying to update/delete does not exist. It might have been deleted previously. Please make sure you are referring to the correct rate card."
+    },
+    "CCS:RATE_CARD_PRICE_SET_INVALID_PRICE": {
+      "message": "Unable to Save Rate Card",
+      "description": "The shipment rate cards are invalid for <0>{{validityMonth}}</0>, there is mismatch of services and prices, please update the <1>contract</1> and try again."
+    },
+    "CCS:ADDITIONAL_SERVICE_RATE_ALREADY_EXISTS": {
+      "message": "",
+      "description": "It looks like an additional service rate for this specific month has already been created by another user. Please refresh the page and review the existing rates."
+    },
+    "CCS:ADDITIONAL_SERVICE_RATE_INVALID_FACILITY_ID": {
+      "message": "",
+      "description": "The service you're trying to add/update is not configured in the contract for this facility. Please check the contract details and ensure the service is valid for this location before proceeding."
+    },
+    "CCS:ADDITIONAL_SERVICE_RATE_CONTRACT_STATE_CANCELED_REJECTED": {
+      "message": "",
+      "description": "Additional service rates cannot be created/updated for a canceled contract. If you have any questions or require further assistance, please reach out to supporttms@zalando.de"
+    },
+    "CCS:ADDITIONAL_SERVICE_RATE_INVALID_CONTRACT_CONFIGURABLE_SERVICE_ID": {
+      "message": "",
+      "description": "The additional service you're attempting to add/update is not currently configured in the contract. To proceed, please make sure that the service is configured in the contract."
+    },
+    "CCS:ADDITIONAL_SERVICE_RATE_NOT_FOUND": {
+      "message": "",
+      "description": "The additional service rate you're trying to update/delete no longer exists. It may have been deleted previously. Please ensure you are referring to the correct rate."
+    },
+    "CCS:ENTITY_UPDATE_CONFLICT": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "TNS:FACILITY_UPDATE_VERSION": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:SHIPMENT_RATE_VALIDITY_CONFLICT": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CIH_CONFIG_FULFILLMENT_CENTER_CONFIG_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CIH_CONFIG_RETURN_CENTER_CONFIG_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CIH_CONFIG_INJECTION_TIMES_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CIH_CONFIG_FULFILLMENT_CENTER_CONFIG_SUBSET_CIH": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CIH_CONFIG_POST_CODES_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:CONTRACT_NOT_FOUND": {
+      "message": "It looks like a contract with this id doesn't exist.",
+      "description": "Please make sure you are referring to the correct contract."
+    },
+    "CCS:INVOICE_DETAILS_FOR_CONTRACT_ALREADY_EXISTS": {
+      "message": "Invoicing details for this contract already exist",
+      "description": "Please refresh the page and review the existing invoicing details"
+    },
+    "CCS:DELIVERY_COUNTRY_SHARE_DUPLICATE": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "CCS:LAST_MILE_PRODUCT_CONFIGURATION_ALREADY_EXISTS": {
+      "message": "Last Mile Destination is already added to the contract",
+      "description": "Please refresh the page and review the existing last mile destinations"
+    },
+    "CCS:LAST_MILE_PRICE_INVALID_MONTH_INSERT": {
+      "message": "Unsaved changes",
+      "description": "Validity month should be a current or a future month for insert."
+    },
+    "CCS:PRICE_WEIGHT_OVERLAP": {
+      "message": "Unsaved changes",
+      "description": "Provided weight range overlaps with an existing weight range."
+    },
+    "CCS:PRICE_CAPACITY_OVERLAP": {
+      "message": "Unsaved changes",
+      "description": "Provided capacity range overlaps with an existing capacity range."
+    },
+    "CCS:REGIONAL_AREA_ALREADY_EXISTS": {
+      "message": "Regional Area already exists",
+      "description": "Regional Area with the same configuration already exists."
+    },
+    "TNS:ROUTING_CONTEXT_NOT_UNIQUE_FOR_INSERT": {
+      "message": "Unsaved changes",
+      "description": "Routing Context Already Exists."
+    },
+    "TNS:ROUTING_CONTEXT_UPDATE_VERSION": {
+      "message": "Unsaved changes",
+      "description": "Your updates could not be saved at the moment. Please reload the page and save it again."
+    },
+    "TNS:LEGACY_MAPPING_BRANCH_CODE_CONFLICT": {
+      "message": "Unsaved changes",
+      "description": "Facility with this branch code already exists."
+    },
+    "CCS:TIMELINE_NOT_FOUND": {
+      "message": "Timeline not found",
+      "description": "The timeline you're trying to update/delete no longer exists. It may have been deleted previously. Please ensure you are referring to the correct timeline."
+    },
+    "CCS:INJECTION_HUB_CONFIGURATION_OVERLAPPING_RANGES": {
+      "message": "Unsaved changes",
+      "description": "The ranges you're trying to configure overlap with existing ones. Please review and adjust your settings to avoid any overlaps."
+    },
+    "CCS:PRICE_BOTH_RANGES_OVERLAP": {
+      "message": "Unsaved changes",
+      "description": "Both capacity and weight ranges overlaps with an existing range."
+    },
+    "CCS:PRICE_WEIGHT_DIMENSION_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Max weight should be more than min weight."
+    },
+    "CCS:PRICE_CAPACITY_DIMENSION_INVALID": {
+      "message": "Unsaved changes",
+      "description": "Max capacity should be more than min capacity."
+    },
+    "CCS:PRICE_WITH_INVALID_SIZE": {
+      "message": "Unsaved changes",
+      "description": "Price with same size already exists for the given validity month."
+    },
+    "CCS:PRICE_WITH_INVALID_SIZE_AND_WEIGHT": {
+      "message": "Unsaved changes",
+      "description": "Price with same size and weight already exists for the given validity month."
+    },
+    "CCS:PRICE_WITH_INVALID_SIZE_AND_CAPACITY": {
+      "message": "Unsaved changes",
+      "description": "Price with same size and capacity already exists for the given validity month."
+    },
+    "CCS:PRICE_WITH_ALL_DIMENSIONS": {
+      "message": "Unsaved changes",
+      "description": "Price can have at most two of the three dimensions."
+    },
+    "CCS:LAST_MILE_INVALID_MONTH_UPDATE_OR_DELETE": {
+      "message": "Unsaved changes",
+      "description": "Validity month should be a future month for update or delete operation."
+    },
+    "CCS:DELIVERY_COUNTRY_SHARE_INVALID_TARGET_MONTH": {
+      "message": "Unsaved changes",
+      "description": "Delivery country shares can only be copied to the future month."
+    },
+    "CCS:LAST_MILE_PRICE_INVALID_CURRENCY": {
+      "message": "Unsaved changes",
+      "description": "Currency does not exist in invoice details."
+    },
+    "CCS:LAST_MILE_INVALID_MONTH_INSERT": {
+      "message": "Unsaved changes",
+      "description": "Validity month should be a current or a future month for insert."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_PRICE_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service price was not found."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_PRICE_IMMUTABLE": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service price immutable fields cannot be updated."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_PRICE_CONFLICT": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service price cannot be copied due to a conflict with existing values."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_PRICE_TARGET_MONTH": {
+      "message": "Unsaved changes",
+      "description": "Prices can only be copied to the future month."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_PRICE_SOURCE_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Source Last mile additional service price does not exist."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_SHARE_IS_DUPLICATE": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service share cannot contain duplicate records."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_SHARE_IMMUTABLE": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service share immutable fields cannot be updated."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_SHARE_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service share was not found."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_SHARE_TARGET_MONTH": {
+      "message": "Unsaved changes",
+      "description": "Shares can only be copied to future month."
+    },
+    "CCS:LAST_MILE_DESTINATION_SHARE_IS_DUPLICATE": {
+      "message": "Unsaved changes",
+      "description": "Last mile destination share cannot contain duplicate records."
+    },
+    "CCS:LAST_MILE_DESTINATION_SHARE_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Last mile destination share was not found."
+    },
+    "CCS:LAST_MILE_DESTINATION_SHARE_IMMUTABLE": {
+      "message": "Unsaved changes",
+      "description": "Last mile destination share immutable fields cannot be updated."
+    },
+    "CCS:LAST_MILE_ADDITIONAL_SERVICE_CONFIGURATION_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Last mile additional service configuration was not found."
+    },
+    "CCS:LAST_MILE_PRICE_NOT_FOUND": {
+      "message": "Unsaved changes",
+      "description": "Last mile price does not exist for the given last mile price ID."
+    },
+    "CCS:LAST_MILE_PRICE_COPY_INVALID_TARGET_MONTH": {
+      "message": "Unsaved changes",
+      "description": "Last mile prices can only be copied to future month."
+    },
+    "CCS:LAST_MILE_DESTINATION_SHARE_COPY_INVALID_TARGET_MONTH": {
+      "message": "Unsaved changes",
+      "description": "Last mile destination shares can only be copied to future months."
+    }
+  },
+  "deliveryServiceDirectionOptions": {
+    "DELIVERY": "Delivery",
+    "RETURN": "Returns"
+  },
+  "searchDropdown": {
+    "placeholder": "Search",
+    "reset": "Reset",
+    "search": "Search"
+  },
+  "contractShareValidation": {
+    "notMatch_one": "The delivery country share does not add up to 100% in {{service}}",
+    "notMatch_other": "The delivery country share does not add up to 100% in {{service}} between multiple carriers",
+    "warningMessage": "Country shares must add up to 100% per month between all carriers per delivery and return services."
+  },
+  "postcodeInput": {
+    "searchButton": "Search",
+    "rangesInputTab": "Postal Code Ranges",
+    "textAreaInputTab": "Postal Codes Manual Entry",
+    "rangeCountMessage": "{{count}} postal code ranges provided",
+    "rangeCreatedAlertDescription": "A new postal code range has been entered successfully. Please check the Postal Code Ranges tab to review and manage ranges."
+  }
+}

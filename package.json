@@ -1,0 +1,122 @@
+{
+  "name": "stringly-i18n",
+  "displayName": "Stringly i18n Key Copier",
+  "description": "Copy full i18n translation key paths from JSON files — like XPath for your translation keys",
+  "version": "0.1.0",
+  "publisher": "elumeen-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekkhuntia/stringly-i18n"
+  },
+  "homepage": "https://github.com/abhishekkhuntia/stringly-i18n#readme",
+  "bugs": {
+    "url": "https://github.com/abhishekkhuntia/stringly-i18n/issues"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "keywords": ["i18n", "translation", "json", "key", "copy"],
+  "activationEvents": [],
+  "icon": "images/icon.png",
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "stringly-i18n.copyKeyPath",
+        "title": "Copy i18n Key Path",
+        "category": "i18n"
+      },
+      {
+        "command": "stringly-i18n.copyKeyPathAsObject",
+        "title": "Copy i18n Key Path (Object Notation)",
+        "category": "i18n"
+      },
+      {
+        "command": "stringly-i18n.copyKeyPathWithContext",
+        "title": "Copy i18n Key Path (with Context)",
+        "category": "i18n"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "stringly-i18n.copyKeyPath",
+        "key": "alt+shift+c",
+        "mac": "cmd+shift+c",
+        "when": "editorTextFocus && (editorLangId == 'json' || editorLangId == 'jsonc')"
+      },
+      {
+        "command": "stringly-i18n.copyKeyPathWithContext",
+        "key": "alt+shift+x",
+        "mac": "alt+shift+x",
+        "when": "editorTextFocus && (editorLangId == 'json' || editorLangId == 'jsonc')"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorTextFocus && (editorLangId == 'json' || editorLangId == 'jsonc')",
+          "command": "stringly-i18n.copyKeyPath",
+          "group": "9_cutcopypaste@1"
+        },
+        {
+          "when": "editorTextFocus && (editorLangId == 'json' || editorLangId == 'jsonc')",
+          "command": "stringly-i18n.copyKeyPathAsObject",
+          "group": "9_cutcopypaste@2"
+        },
+        {
+          "when": "editorTextFocus && (editorLangId == 'json' || editorLangId == 'jsonc')",
+          "command": "stringly-i18n.copyKeyPathWithContext",
+          "group": "9_cutcopypaste@3"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Stringly i18n Key Copier",
+      "properties": {
+        "stringly-i18n.separator": {
+          "type": "string",
+          "default": ".",
+          "description": "Separator used between key segments (e.g. '.' for dot notation, ':' for colon notation)"
+        },
+        "stringly-i18n.showStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the current i18n key path in the status bar as you navigate"
+        },
+        "stringly-i18n.includeArrayIndices": {
+          "type": "boolean",
+          "default": false,
+          "description": "Include numeric array indices in the copied key path"
+        },
+        "stringly-i18n.pluralSuffixes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "Additional key suffixes (after '_') to treat as i18next pluralisation variants and exclude from context detection. Built-in suffixes (one, other, zero, few, many, two) are always excluded."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run lint && npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts --max-warnings 0",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^18.x",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "eslint": "^8.x",
+    "typescript": "^5.x",
+    "@vscode/vsce": "^2.x"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.2.0"
+  }
+}
