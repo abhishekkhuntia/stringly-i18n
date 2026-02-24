@@ -2,7 +2,7 @@
   "name": "stringly-i18n",
   "displayName": "Stringly i18n Key Copier",
   "description": "Copy full i18n translation key paths from JSON files — like XPath for your translation keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "elumeen-dev",
   "license": "MIT",
   "repository": {
