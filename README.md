@@ -17,6 +17,8 @@ Place the cursor on any key **or** its value and press `Alt+Shift+C`.
 }
 ```
 
+<img src="./assets/demo1.gif" alt="Copying Simple Notations" width="700" />
+
 Copied:
 ```
 contractInjectionHub.injectionHubConfigurationsCard.deleteFacilityModal.description
@@ -38,6 +40,7 @@ Detects [i18next context keys](https://www.i18next.com/translation-function/cont
 
 Press `Alt+Shift+X` on `fieldKey_parcelSortingCapacity` and a quick-pick appears:
 
+<img src="./assets/demo2.gif" alt="Copying Simple Notations" width="700" />
 ```
 🔑 Base key only
    contractInjectionHub.injectionHubConfigurationsTable.fieldKey
@@ -71,6 +74,7 @@ The current key path updates as you move the cursor. **Click to copy immediately
 - **Copy i18n Key Path**
 - **Copy i18n Key Path (Object Notation)**
 - **Copy i18n Key Path (with Context)**
+<img src="./assets/context.png" alt="Context Menu demo" width="700" />
 
 ## Configuration
 
